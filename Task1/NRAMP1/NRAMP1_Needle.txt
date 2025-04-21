@@ -1,0 +1,1701 @@
+########################################
+# Program: needle
+# Rundate: Sun 20 Apr 2025 21:10:04
+# Commandline: needle
+#    -auto
+#    -asequence /var/lib/emboss-explorer/output/086805/.asequence
+#    -bsequence /var/lib/emboss-explorer/output/086805/.bsequence
+#    -outfile outfile
+# Align_format: srspair
+# Report_file: outfile
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 218382273-218396894
+# 2: 74414318-74429974
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20839
+# Identity:    7563/20839 (36.3%)
+# Similarity:  7563/20839 (36.3%)
+# Gaps:       11399/20839 (54.7%)
+# Score: 17629.0
+# 
+#
+#=======================================
+
+218382273-218      0 --------------------------------------------------      0
+                                                                       
+74414318-7442      1 CCCTCAGTGATGTGGAGATGAGGTCTGGAGGGGATGGGAAGGGCGTGGGT     50
+
+218382273-218      1 ----AC----ACTTACTTGCACCAGTGCCCAGAGAGGGGGTGCAGGCTGA     42
+                         ||    |||.|||.|.|||||..||||.|||.|||| .|||..|||
+74414318-7442     51 TCCCACTCTTACTCACTCGGACCAGCACCCACAGAAGGGG-ACAGATTGA     99
+
+218382273-218     43 GGAGC----TGCCCAGAGCACCGCTCA-CACTCCCAGAGTA-CCTGAAGT     86
+                     |||||    ||||   ||..|.|.|.| |||.|.||||||| ||||..|.
+74414318-7442    100 GGAGCTAGTTGCC---AGGCCTGGTGACCACACACAGAGTATCCTGCCGC    146
+
+218382273-218     87 CGGCAT-TTCAATGACAGGTGAGTAGTGGCCCCTAGGGACAGAGCCTGAT    135
+                     |.||.| .|| ||||...||||||.||||||.|.|||||     |||.||
+74414318-7442    147 CTGCGTCCTC-ATGATTAGTGAGTGGTGGCCTCCAGGGA-----CCTAAT    190
+
+218382273-218    136 TGGGGGGTGGAGTGGAGGAGATCACTAGGCTGGTGGAGACTTGAGGAAGC    185
+                       |||..|..||                  |||.||.|||||||||..||
+74414318-7442    191 --GGGATTCCAG------------------TGGGGGTGACTTGAGGGGGC    220
+
+218382273-218    186 AAGAAAGCCCTTGGTCCCCTGTGGAAGCCTCTGGTCCCCCGTGGGAGTCC    235
+                     |||.|||...|.||..|.||||||                  |||     
+74414318-7442    221 AAGGAAGATTTAGGGTCTCTGTGG------------------GGG-----    247
+
+218382273-218    236 TAGTCTAGAACACAGTTCTGGACACCAGACTCAATCTCACTGGGTGGAGT    285
+                               |.|||.||||    |||||..||                 
+74414318-7442    248 ----------CTCAGCTCTG----CCAGAGGCA-----------------    266
+
+218382273-218    286 CCTTCACACCCCTAAGCGGTCTACCTTTCCTTTGTCTG--AAGTCCGTGG    333
+                      |||||                           |||.|  |..||.||||
+74414318-7442    267 -CTTCA---------------------------GTCAGGCACTTCTGTGG    288
+
+218382273-218    334 ATCAAAGCCCCTGGAGCTTTCTGG-GCTGCCGGAGAAGGTGAGGGGTCCA    382
+                     ||.|||   |||||       ||| |..|.|.|||.|.|   ||||||.|
+74414318-7442    289 ATTAAA---CCTGG-------TGGAGGAGACAGAGCATG---GGGGTCAA    325
+
+218382273-218    383 GCCAAG--GGGCAGACATGTGGCCTCAGCTTGCCCTTCTTAGAGCCTAGG    430
+                     ||  ||  |.|| ||   |.||||||  ||                    
+74414318-7442    326 GC--AGCTGAGC-GA---GGGGCCTC--CT--------------------    347
+
+218382273-218    431 GTCTCTCTGCATTCT-CTGTGGCAGGAGATCTGCCTCTGGGCA---TCTG    476
+                     |||||.|  .|.||| |||...||||.|||.||..| |||..|   ||||
+74414318-7442    348 GTCTCAC--AAATCTCCTGACTCAGGGGATTTGGAT-TGGAGAAGTTCTG    394
+
+218382273-218    477 TCCTCACATGAGAGGACAGTAATTCT--GAAGCTGCCATGTCCCACACAT    524
+                     |.||||| ||.||||..|||.|||||  |||               ||.|
+74414318-7442    395 TGCTCAC-TGGGAGGGAAGTGATTCTTGGAA---------------ACCT    428
+
+218382273-218    525 CTGGAATGTTTGTTTG----AGAGGTGGAGGTGATGGACCCAAGATGGGG    570
+                     |         ||.|||    |.|||||||..||       |.||.||.||
+74414318-7442    429 C---------TGCTTGGCACATAGGTGGACCTG-------CCAGTTGCGG    462
+
+218382273-218    571 G----------CCAGGGACCTTAGTTTCTCCACTTTTCCGGGAGGAGGAG    610
+                     |          |.|||     |.||              |||||||||  
+74414318-7442    463 GGAGCGGAGGTCGAGG-----TCGT--------------GGGAGGAGG--    491
+
+218382273-218    611 GGAAAGGATCAGGCGGCTTTAA-CTCTGGGCCACCAGAAAGAGGCAGGAC    659
+                              ||||.|||||.|| |.|.||  |.|..||||||.||| .||
+74414318-7442    492 ---------CAGGTGGCTTGAATCCCAGG--CTCTTGAAAGAAGCA-CAC    529
+
+218382273-218    660 ACTCACCATGCTTCATGGG--CCCCCACAGGTGACAAGGGTCCCCAAAGG    707
+                     ||.||||..||.||.||||  |||..||||||||||||.|.||||..|||
+74414318-7442    530 ACCCACCTAGCATCCTGGGGTCCCTGACAGGTGACAAGAGCCCCCCGAGG    579
+
+218382273-218    708 CTAAGCGGGTCCAGCTATGGTTCCATCTCCAGCCCGACCAGCCCGACCAG    757
+                     ||.|||.||.||||.|||||.|||||.|||||||.| ||.|        |
+74414318-7442    580 CTGAGCAGGCCCAGTTATGGCTCCATTTCCAGCCTG-CCTG--------G    620
+
+218382273-218    758 CCCAGGGCCACAGCAAGCACCTCCCAGAGAGACCTACCTGAGTGAGAAGA    807
+                     |||||..||.||||.|||.|||..|.|.||||||||||||||||||||||
+74414318-7442    621 CCCAGCACCTCAGCCAGCGCCTTGCCGGGAGACCTACCTGAGTGAGAAGA    670
+
+218382273-218    808 TCCCCA-TCCCAGACACAAAACCGGT-GGGATGCTGGAAACTTCCTGGGG    855
+                     |||||| |||||| |.||.|.|.||| ||||||.|.|.||..||||..|.
+74414318-7442    671 TCCCCATTCCCAG-CGCAGACCAGGTAGGGATGGTAGGAATGTCCTCAGT    719
+
+218382273-218    856 GCTTGCAAGAT--TGACAGGATCCTGAAGGATCCCATGGGCTGGAGAATG    903
+                     ||||.|.||.|  | ||.|||||||..|.||.|..|..||||||.||   
+74414318-7442    720 GCTTCCCAGGTCCT-ACCGGATCCTCCACGACCTTAAAGGCTGGGGA---    765
+
+218382273-218    904 GGGTCTCCTTATGATCATGGGTGGCAAGTCCCTTCCAGGTCTGAGCAGCA    953
+                                       |||.||||        |||..|.|||      
+74414318-7442    766 ------------------GGGGGGCA--------CCATCTGTGA------    783
+
+218382273-218    954 GTGGTGGACAGTGGCAACTGCCCCTTCCTGCTTCCGTCCCCAGTGCTTAG   1003
+                                           ||||            ..|||||.|||.
+74414318-7442    784 ----------------------CCTT------------GACAGTGATTAA    799
+
+218382273-218   1004 CTGGGGTGCTTCAG----TATTTGTCTAAAAGCGATTAAATGACTTTCTC   1049
+                     ..|.||||| ||.|    ||||||...||||...||.|||||  .|||||
+74414318-7442    800 AGGAGGTGC-TCTGTACTTATTTGGGAAAAACAAATCAAATG--GTTCTC    846
+
+218382273-218   1050 AATGA--ATCTCAGCTTTCCTATGAAGGAAAAGAGGCCCAGGGGGAATTG   1097
+                     || ||  |.||.||||||.|                |.||||||.||   
+74414318-7442    847 AA-GAAGACCTTAGCTTTTC----------------CACAGGGGTAA---    876
+
+218382273-218   1098 GGATTGGAGCCTTGAGGAC-ATGTT-ATAGCATTTAGGA-AAGGG----C   1140
+                          .||||||.|| .|| ||||| || ||   ||..| |||.|    |
+74414318-7442    877 -----AGAGCCTAGA-TACTATGTTGAT-GC---TAAAAGAAGCGATCAC    916
+
+218382273-218   1141 ATAGGGAGAAGTGAAGGAGGCTGCAGGCTGGCATCTAGC----ATCTAGG   1186
+                     .||||||...|||.||  ||.|..||||..||||| |||    .|||.|.
+74414318-7442    917 TTAGGGACTTGTGCAG--GGATAAAGGCGAGCATC-AGCCTGGTTCTGGC    963
+
+218382273-218   1187 ATGCTGTCA-CCTGCATTTCCAGTATCTTCTCTTTTTTTGGAGATGGAGT   1235
+                     ||||||.|| ||.||.||.|||..||.|| |||||||      ||...||
+74414318-7442    964 ATGCTGCCATCCAGCTTTGCCACAATGTT-TCTTTTT------ATAATGT   1006
+
+218382273-218   1236 CTCGC-------TCTGTAGCCCAGGCTGGAGTGCAGTGGCGCGATCTCAG   1278
+                     .||.|       |.|.|||                               
+74414318-7442   1007 ATCACATTTATTTATTTAG-------------------------------   1025
+
+218382273-218   1279 CTCACTGCAACCTCCGCTT-----CCCAAGTTTAAGCGATTCTCCTGCCC   1323
+                      |.|||      ||.|.||     |||  ||.|..||||.|         
+74414318-7442   1026 -TTACT------TCTGTTTATTTGCCC--GTATTTGCGAGT---------   1057
+
+218382273-218   1324 CGGCCTCCCGAGTAGCTGGG---ATTACAG-GCATGCACCACCATGCC--   1367
+                       ||.|   |.|||||||.|   ||||.|| ||||||.|....|.|.|  
+74414318-7442   1058 --GCAT---GTGTAGCTGTGTCCATTATAGAGCATGCGCGTGGAGGTCAG   1102
+
+218382273-218   1368 AGGCTAATTTTTGTATTTTTACTAGAGACA-----------------GGG   1400
+                     |||..||.||.||          ||||.||                 |||
+74414318-7442   1103 AGGACAACTTGTG----------AGAGTCAGCTCACTTCTACTACGTGGG   1142
+
+218382273-218   1401 TTTCACCATG-TTGGCCAGGCTGGTCTCAAACTCCTTAG-CTCAAGTGAT   1448
+                     ||   |||.| ||||      |||         |||||| |||   |||.
+74414318-7442   1143 TT---CCAAGTTTGG------TGG---------CCTTAGCCTC---TGAG   1171
+
+218382273-218   1449 CCACCCACCTCGG-CCTTCCAAAGTGCTGGGATTACAGACACGAGCCAAC   1497
+                     |  |||..||||| ||  ||           |||          ||| ||
+74414318-7442   1172 C--CCCTTCTCGGTCC--CC-----------ATT----------GCC-AC   1195
+
+218382273-218   1498 GCTCCCAGCCTCCAATATCTTCAGCAGATTTCTA---AGTCAATATGCCA   1544
+                     .|||                |.||||||||.|||   .|||   ..||||
+74414318-7442   1196 ACTC----------------TAAGCAGATTCCTAGGCTGTC---GGGCCA   1226
+
+218382273-218   1545 TGCTCTGGAACAGGGTGGGGGGACCAT-AG-CCTCAGCGGACCACAGAGA   1592
+                     ..|.|||.||.||.||.|.|.|||  | || ||||||.||.||.||||||
+74414318-7442   1227 AACCCTGAAATAGAGTTGAGTGAC--TGAGACCTCAGTGGTCCCCAGAGA   1274
+
+218382273-218   1593 GGAGGCCCCGTGGTCTGAAAAGGAGCTGGCAAGGGAGGAGCTGGGCTAGG   1642
+                     |.||..||.|..||.|||.||||..||||..|||||.||||||....|||
+74414318-7442   1275 GAAGAGCCTGAAGTATGAGAAGGGTCTGGGGAGGGAAGAGCTGTAACAGG   1324
+
+218382273-218   1643 GAAGCTTGGCCCCCTCACCCCCTTA-GACA---GCCCCCTGTGAGGTCTC   1688
+                     ||.|.||             ..||| .|||   .||||||.|..||.|||
+74414318-7442   1325 GAGGTTT-------------AATTACAACAAGGTCCCCCTCTTGGGACTC   1361
+
+218382273-218   1689 TGAGGA-CCTGACAAGTCAGGGCTTGAGGGGCAGGCAGTTCAGGTGCAAG   1737
+                     ||||.| |||||             .||.|||||.|||.|||.||||..|
+74414318-7442   1362 TGAGAAGCCTGA-------------AAGAGGCAGACAGGTCATGTGCTGG   1398
+
+218382273-218   1738 CCGGCTGCTGA-------GCTTAACAG-----ATCCAGAAA-AAGATCCT   1774
+                     ||.|||||.||       |||.|||||     |.||||||| .|||.||.
+74414318-7442   1399 CCAGCTGCAGAGGCTGCTGCTGAACAGGACCAACCCAGAAAGCAGAGCCA   1448
+
+218382273-218   1775 CTGTGACTCATCAGAGCATGCTGCTTCCTCCACCCATGCCCTCCCCATCC   1824
+                     ..||||||||.||   .|||                 |||||   ..|||
+74414318-7442   1449 TAGTGACTCAGCA---AATG-----------------GCCCT---GGTCC   1475
+
+218382273-218   1825 CTTGGG----TGGCAGACCCAGGAA-----TGGGCCATGGAGGGCAGGGC   1865
+                     ||.|||    .||||| |...||.|     ||||..|||||||.||||||
+74414318-7442   1476 CTCGGGGGACGGGCAG-CGGTGGCATTGGGTGGGTGATGGAGGACAGGGC   1524
+
+218382273-218   1866 TG--------GGCTGATGA----GCCTGTTGGG------GCTCCTCTAGG   1897
+                     ||        |.||||.||    .||||.||.|      |||    .|||
+74414318-7442   1525 TGGCCAGCCTGACTGAAGAAGATACCTGCTGAGTTTTTAGCT----GAGG   1570
+
+218382273-218   1898 GGATGGCCAAGGCCAGCTGCCACCATCC-----CTATACCCAGGACCCCC   1942
+                     ||||||.|||||||||||||..||||||     |||   .||.|||||..
+74414318-7442   1571 GGATGGTCAAGGCCAGCTGCATCCATCCAGGAGCTA---ACATGACCCGA   1617
+
+218382273-218   1943 TCACTCTACTCCTCCCACCCCCCAACAGGGCACCTTCAGCCTGCGGAAGC   1992
+                     |       ||.||..||||||    |||||.||.|||||||||.||||||
+74414318-7442   1618 T-------CTGCTTGCACCCC----CAGGGTACATTCAGCCTGAGGAAGC   1656
+
+218382273-218   1993 TATGGGCCTTCACGGGGCCTGGCTTCCTCATGAGCATTGCTTTCCTGGAC   2042
+                     |.|||||.||||||||||||||.||||||||||||||.||||||||.|||
+74414318-7442   1657 TGTGGGCGTTCACGGGGCCTGGTTTCCTCATGAGCATCGCTTTCCTTGAC   1706
+
+218382273-218   2043 CCAGGAAACATCGAGTCAGATCTTCAGGCTGGCGCCGTGGCGGGATTCAA   2092
+                     ||.||||||||.|||||.||.|||||.||||||||.|||||.||.|||||
+74414318-7442   1707 CCGGGAAACATTGAGTCCGACCTTCAAGCTGGCGCTGTGGCTGGGTTCAA   1756
+
+218382273-218   2093 AGTAACTAAGTCGGGACCTGAGTGGGGACACTTTCGAGAGGGAGGTGACC   2142
+                     ||| |||.||||.||.||                                
+74414318-7442   1757 AGT-ACTGAGTCTGGGCC--------------------------------   1773
+
+218382273-218   2143 AGGCTAAGTGTTGAAGGCCCCTGCTGGCCATG-TTTCTCCAATGTGGCCT   2191
+                                               |||||| ||.||   .||||    
+74414318-7442   1774 --------------------------GCCATGCTTGCT---TTGTG----   1790
+
+218382273-218   2192 GGGAGCTGGTGTTAAGTTCAAATGGGCCCGAAAAGGGTCCCCAGGGCAGC   2241
+                     ||||||..|||                                       
+74414318-7442   1791 GGGAGCACGTG---------------------------------------   1801
+
+218382273-218   2242 CCTGCCAGAAGGTGGGGCATTTGTGTGGGGGGTAGGGGACTGGACTCCTC   2291
+                     |||     .||.|.||.|               ||||||   |||.||  
+74414318-7442   1802 CCT-----TAGCTAGGAC---------------AGGGGA---GACCCC--   1826
+
+218382273-218   2292 TCTTTAAAATATATATATGTATATTTATTTATTTATTTATTTAATTTTAT   2341
+                                                               |.||||  
+74414318-7442   1827 ------------------------------------------AGTTTT--   1832
+
+218382273-218   2342 TTTTTGAGACTCAGTCTCACTCGGTCACCCAGGCTGGAGTGCAGTGGCAC   2391
+                                                 |||     |||           
+74414318-7442   1833 ----------------------------CCA-----GAG-----------   1838
+
+218382273-218   2392 AATCTCGGCTCACTGCAACCTCTGCCTCCCGGGTTCAAGTGATTCTCCTG   2441
+                                                 ||||               |||
+74414318-7442   1839 ----------------------------CCGG---------------CTG   1845
+
+218382273-218   2442 CCTCAGCCTCCTGAGTAGTGCATGCCACCACGCCTGGCTAATTTTTGTAT   2491
+                     |                                                 
+74414318-7442   1846 C-------------------------------------------------   1846
+
+218382273-218   2492 TTTTAGTAGAGATGG--GGTTTCACTGTGTGGGCCAGGCTGGTCTTGAA-   2538
+                                ||||  |||||..|||        |||.|       || 
+74414318-7442   1847 -----------ATGGGTGGTTTTTCTG--------AGGAT-------AAG   1870
+
+218382273-218   2539 CTCCTGACCTCAAGTGATCCACCGCCTCGGCCTCCCAAAGTGCTGGGA-T   2587
+                     |||||           ||                        |.|||| .
+74414318-7442   1871 CTCCT-----------AT------------------------CGGGGAGG   1885
+
+218382273-218   2588 AACAGGTGTGAGCCACCTTGCCTGGCGTAATTTATTTATTTATTTAGAGA   2637
+                     ||.|||        ||||||                          ||||
+74414318-7442   1886 AAAAGG--------ACCTTG--------------------------GAGA   1901
+
+218382273-218   2638 TGGGGGTCTCACTATGTTGCTCAGGCTGCTCTTGAACTCCTGGACTCAAG   2687
+                                                       |||.||||||      
+74414318-7442   1902 ----------------------------------AACCCCTGGA------   1911
+
+218382273-218   2688 CAATCCTCCCACCTTAGCCTTTTAAAG--TGCTGGGATTACAGGGTG--A   2733
+                                           .||||  |||||      .||||||  |
+74414318-7442   1912 ----------------------GAAAGGATGCTG------TAGGGTGTTA   1933
+
+218382273-218   2734 G-CTACCAGCGCCCAGCCAGGATGGGACTCCATCTCTCCCACCCCCTCCC   2782
+                     | ||.||  ||||||                |||   ||||         
+74414318-7442   1934 GTCTTCC--CGCCCA----------------ATC---CCCA---------   1953
+
+218382273-218   2783 CGAGGAGTATGCTTGGTTAGAGGGTACCACGAGCTCAGGGGCTTTCTGAG   2832
+                                                       ||||        .|||
+74414318-7442   1954 ----------------------------------TCAG--------AGAG   1961
+
+218382273-218   2833 GCTGGCCTCTCTGGCTGAAGGCCTCTCC-CTGCCTCCTCACAGCTTCTCT   2881
+                     ||||    ||||||||||  ||.||||| |||..|||||||||||.||||
+74414318-7442   1962 GCTG----CTCTGGCTGA--GCATCTCCTCTGTTTCCTCACAGCTCCTCT   2005
+
+218382273-218   2882 GGGTGCTGCTCTGGGCCACCGTGTTGGGCTTGCTCTGCCAGCGACTGGCT   2931
+                     ||||||||||||||||.||.|||.|.||.|||||.||||||||.||||||
+74414318-7442   2006 GGGTGCTGCTCTGGGCGACTGTGCTAGGTTTGCTGTGCCAGCGGCTGGCT   2055
+
+218382273-218   2932 GCACGTCTGGGCGTGGTGACAGGCAAGGACTTGGGCGAGGTCTGCCATCT   2981
+                     ||.||.|||||||||||||||||||||||||||||.||.|||||||||||
+74414318-7442   2056 GCCCGGCTGGGCGTGGTGACAGGCAAGGACTTGGGTGAAGTCTGCCATCT   2105
+
+218382273-218   2982 CTACTACCCTAAGGTGAGCT------------TGGGGGGCCTGGACAGGG   3019
+                     |||||||||.||||||||||            .|||||.|.|||||||..
+74414318-7442   2106 CTACTACCCCAAGGTGAGCTGGGAACCGGCAGAGGGGGTCATGGACAGAA   2155
+
+218382273-218   3020 AGAA-CCACTGGCCCCAAACCCCAAACAGCCATTTTCAGCTTCCACGATC   3068
+                     |||| ||||.|..|.|||||||..|.|||...||...||||||||..||.
+74414318-7442   2156 AGAACCCACAGCTCTCAAACCCTGAGCAGTTGTTGATAGCTTCCATAATA   2205
+
+218382273-218   3069 AAATAAATACA---------------------TCATCTCACATGG----G   3093
+                     |||||||||||                     ||||..||||.||    .
+74414318-7442   2206 AAATAAATACAGCAGGAGCTCCCAGGCTCAATTCATAGCACACGGACAAA   2255
+
+218382273-218   3094 GC-----ATCC---------------------CAA---------------   3102
+                     ||     ||||                     |||               
+74414318-7442   2256 GCCCCATATCCTAGGGCTAAGCACTGCTCCCTCAAGACCACCCAGACCAC   2305
+
+218382273-218   3103 ------GTCTGTTT------GTTTTT-------GTTGTTGTTT--GTTTG   3131
+                           ||.|.|||      |.||||       |.| ||.|||  |..||
+74414318-7442   2306 ACCATGGTATATTTCAAAGAGATTTTAAAAAAAGAT-TTATTTAGGGCTG   2354
+
+218382273-218   3132 ------TTTTTCAGTCGG--AG-------------TCTCGCTCCGTCGCC   3160
+                           |...|||||.||  ||             |||   ||||..|  
+74414318-7442   2355 GTGAGATGGCTCAGTGGGTAAGAGCACCTGACTGCTCT---TCCGAAG--   2399
+
+218382273-218   3161 CAGTCAGGAGTGCA---------------ATGGTGCGATGTCAGCTCA--   3193
+                       |||.|||||.||               ||||||        |||||  
+74414318-7442   2400 --GTCCGGAGTTCAAATCCCAGCAACCACATGGTG--------GCTCACA   2439
+
+218382273-218   3194 -----CTG---CAACCTCTACCTCC---------------------CAGG   3214
+                          |||   |||..|||..||||                     |||.
+74414318-7442   2440 ACCATCTGTAACAAGATCTGACTCCCTCTTCTGGAGTGTCTGAAGACAGC   2489
+
+218382273-218   3215 TAC----------------------------------------AAG----   3220
+                     |||                                        |||    
+74414318-7442   2490 TACAGTATACTTACATATAATAAATAAATAAATCTTTAAAAAAAAGATTT   2539
+
+218382273-218   3221 -----------------------TGATTCTCCTG-------AC-------   3233
+                                            |||.|.|.|||       ||       
+74414318-7442   2540 ATTTATTTATTATTTAATGTATATGAGTATACTGTAGTTGTACAGATGGT   2589
+
+218382273-218   3234 --TCAGCCTCTCA---AGTAGCTGGGATT---AC---AGG----------   3262
+                       |.||||| |||   .||.|.|||||||   ||   |||          
+74414318-7442   2590 TGTGAGCCT-TCATGTGGTTGTTGGGATTTGAACTTTAGGAACTCTGCTT   2638
+
+218382273-218   3263 -----------CGCCCAC--------------------CACCATCATCGG   3281
+                                | |||||                    |||||      |
+74414318-7442   2639 GCTCTAGTCAAC-CCCACTTATTCCAGTCAGCCGACTGCACCA------G   2681
+
+218382273-218   3282 CTAATTTTTGTATTTTT----------AGTAGAG-------CTGGGGTTT   3314
+                     |||          |.||          ||.||||       |.||||.||
+74414318-7442   2682 CTA----------TCTTCAGACACACCAGAAGAGGGCGTTACGGGGGGTT   2721
+
+218382273-218   3315 ------CACCATGT------TGG---------CCAGG----CTGGTCTCA   3339
+                           ||||||||      |||         .||||    ||||     
+74414318-7442   2722 GTGAGCCACCATGTGGTTGCTGGGATTTGAATTCAGGACCTCTGG-----   2766
+
+218382273-218   3340 AA------------CTCCTGACCTCAGATG-ATC-CACCCA--CCTCAGT   3373
+                     ||            ||..|.|||||.||.| ||| || |||  |||||.|
+74414318-7442   2767 AAGAGCAGTCAGTGCTTTTAACCTCTGAGGCATCTCA-CCAGCCCTCACT   2815
+
+218382273-218   3374 CTCCCAAAGTGCTGG-----------------GAT--TAC----------   3394
+                              |.||||                 |||  |||          
+74414318-7442   2816 ---------TACTGGTTTTTAACATGGTTGGAGATTCTACTCAGGGGCGC   2856
+
+218382273-218   3395 ----AGGC---ATGAGC------------CACTGCA--TCCGGCCCCAAT   3423
+                         ||||   ||||||            ||||.||  |||.||||| ||
+74414318-7442   2857 CTGAAGGCTGTATGAGCAATCTACTTTTACACTCCATCTCCAGCCCC-AT   2905
+
+218382273-218   3424 TCCATTTGATAG-ATGGAA---------------AGACTGA--GGCT---   3452
+                     ||.|...|||.| |||.||               ||.|.||  ||||   
+74414318-7442   2906 TCAAAGGGATTGAATGCAATTTAACCCTTTCAGGAGCCAGAAGGGCTGGG   2955
+
+218382273-218   3453 -------CAAACTG-------ATAGCACATA------GCCTAGAGGG---   3479
+                            ||||.||       |.|||..|||      ||||   |.|   
+74414318-7442   2956 GTCAGGGCAAAATGTGTCACAAAAGCTGATAAGCCCTGCCT---GTGCAC   3002
+
+218382273-218   3480 -ACATGA----GAGGCATGTCATTT--CACAGAAG------------GGG   3510
+                      |||.||    ||.||| |.|||||  ..||||||            |..
+74414318-7442   3003 CACAGGAACCCGAAGCA-GACATTTGCTTCAGAAGCCTGCAGCAACCGCT   3051
+
+218382273-218   3511 TAATTAA-AATTTGGGAAAGAGACT--------------TGCCCAAGACA   3545
+                     |||.||| .||    ||.||.||||              |||||.|.|||
+74414318-7442   3052 TAACTAACCAT----GAGAGGGACTGGAGTTAGGGTCACTGCCCCAAACA   3097
+
+218382273-218   3546 AAAAATGGG-----GAGG---------------CATC-AGCTCAGGAATG   3574
+                     ..|..|.||     ||||               |||| |.||.||  .|.
+74414318-7442   3098 CCACCTAGGAGCAAGAGGCCTGGTTTCTCTCCACATCTATCTGAG--TTA   3145
+
+218382273-218   3575 GTCACTG---GTTG------------------GGGTGG------------   3591
+                     |||..||   ||||                  |.||||            
+74414318-7442   3146 GTCTGTGTCTGTTGCTGAAAGTCCATGAAGCTGAGTGGTTTAGTTTCTCT   3195
+
+218382273-218   3591 --------------------------------------------------   3591
+                                                                       
+74414318-7442   3196 CTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCT   3245
+
+218382273-218   3592 -------ACC-------------------CTG------------------   3597
+                            |.|                   |||                  
+74414318-7442   3246 CTCTCTCATCTATCAATCTATCTATCTATCTGAGTATATTTTTATTTTTT   3295
+
+218382273-218   3598 -------GGGACTTCGTTGTT---------------GTGAGTGTCCAGTT   3625
+                            ||| .|||.|||||               .|||||     |.|
+74414318-7442   3296 CAAATCAGGG-TTTCTTTGTTTAGCCCATCCTGAAACTGAGT-----GCT   3339
+
+218382273-218   3626 TGGA--AAACAGAAATTAC--AGCACTGGACATTT---------------   3656
+                     .|||  ||||   .|||||  ||| ||||.|.|||               
+74414318-7442   3340 GGGAATAAAC---TATTACCAAGC-CTGGCCCTTTAACTTTTTTTTTTTT   3385
+
+218382273-218   3657 -----------CAA--AGGTATTGA---ATG---CAGGGATTGAAAG---   3684
+                                |||  ||| .|.||   |||   |||.|.||.|.||   
+74414318-7442   3386 AAATAAATAAACAAACAGG-CTGGAGAGATGGCTCAGTGGTTAAGAGCAC   3434
+
+218382273-218   3685 --------GTTTGGGAGGGCTTGAG---------GGGCAAGGGAAGAGGG   3717
+                             |||..|.|||.|.||||         ..||||  ..|.|.||
+74414318-7442   3435 AGACTGTTGTTCAGTAGGTCCTGAGTTCAATTCCCAGCAA--CCACATGG   3482
+
+218382273-218   3718 TG--TTACAAAAA----------GATCAGAAAGCTGCTACACCTC--TGG   3753
+                     ||  ||||||..|          ||||.||    |||    ||||  |||
+74414318-7442   3483 TGGCTTACAACCATTTTTAAGGGGATCTGA----TGC----CCTCTTTGG   3524
+
+218382273-218   3754 ------CACAAGCC----CCAGAGCCATC---------------------   3772
+                           |..|||.|    .|||.|.|.||                     
+74414318-7442   3525 GTGTATCTGAAGACAGTGACAGTGTCGTCACGTACAATAAATAAATAAAT   3574
+
+218382273-218   3773 --CTTT--------------------------------------------   3776
+                       ||||                                            
+74414318-7442   3575 AACTTTAAAACTAAATAAATAAACTAAATGATCATTCCAGACATGATGAC   3624
+
+218382273-218   3777 GCTGC-------TGAGCTC------CTGGAAGCATTATTGATGCTGATGA   3813
+                     ||.||       |.|.|||      |||||.|||     ||.||  ||| 
+74414318-7442   3625 GCAGCATACCTTTAAACTCAGTACTCTGGAGGCA-----GAGGC--ATG-   3666
+
+218382273-218   3814 AATGGCCACTAGTG-CTGCCAGAG-TCCGGGTTGCCTGGTGCCA------   3855
+                       |||      ||| ||  |.||| |||.||    |||||  ||      
+74414318-7442   3667 --TGG------GTGTCT--CTGAGTTCCAGG----CTGGT--CAGGGGTA   3700
+
+218382273-218   3856 ------------CTGCCAGAAATACAAGAAGCAGGGGGAGAAAATGGTTT   3893
+                                 |||||.| ||||.||.||        |.|||||     
+74414318-7442   3701 CACAATGAAACTCTGCCTG-AATAAAATAA--------ATAAAAT-----   3736
+
+218382273-218   3894 ATCTCAGCCTGG-GGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGA   3942
+                          |.||.|| .||.||||..|||.|||.|||||||||||| |..|||
+74414318-7442   3737 -----AACCAGGCAGCAGTGGTACACTCCTTTAATCCCAGCAC-TCAGGA   3780
+
+218382273-218   3943 GGCCAAGGCGGG-----------TGGA--TCA-CCTGAGGTC------GG   3972
+                     |||..||||.||           ||||  ||| |||  ||||      ||
+74414318-7442   3781 GGCAGAGGCAGGCAGATCTGAGTTGGAGGTCAGCCT--GGTCTACAGAGG   3828
+
+218382273-218   3973 GAGTTC---------------------GAGA---------CCAG-CCTG-   3990
+                     |||.||                     ||||         |||| .||| 
+74414318-7442   3829 GAGGTCTAACAGTCAGGGTTACTTAAAGAGATTTGAAGCTCCAGTACTGC   3878
+
+218382273-218   3991 ----------------------------------ACCAAC---ATGGAGA   4003
+                                                       ||||||   |...|.|
+74414318-7442   3879 AAAATAAAACCAAAAAAAAAAAAAAAAAAAAAAAACCAACCAAACAAAAA   3928
+
+218382273-218   4004 AACCC-----------CGTCTCTACTAAAAATACAAAAC-----------   4031
+                     |||||           |.||||| .||.|..|.|||..|           
+74414318-7442   3929 AACCCAAATTAGCTCACATCTCT-TTACAGGTTCAAGGCCAATTTCTGCT   3977
+
+218382273-218   4032 ----TAG-------------------------------------------   4034
+                         |||                                           
+74414318-7442   3978 TGTTTAGCTTTATTTGGCAAGGGGGGAGGGGTGCGTGGGGTTGGCCTTGT   4027
+
+218382273-218   4035 -----CCGGGCATGGTGGCACA----------TGCCTGTA--ATCCCA--   4065
+                          ||.||||.|.|..||||          |||||..|  |.||||  
+74414318-7442   4028 CCACACCAGGCAAGCTACCACACTTTGTCCTCTGCCTCCACCACCCCACC   4077
+
+218382273-218   4066 ----------------GCTACTCGGGA------GGCTGAGGCAGGAGAAT   4093
+                                     .||.|||...|      |..||||.||||     
+74414318-7442   4078 CCACCCCCCACCTCCGCCTTCTCTTTACTTTCTGTTTGAGACAGG-----   4122
+
+218382273-218   4094 CGCTTGA--ACACGG---GAGGCGG-------------------------   4113
+                      |.||.|  ||||.|   .||||.|                         
+74414318-7442   4123 -GTTTCACCACACTGCCCCAGGCTGTCCTTGAACTTGTCTCCTCTTGTCT   4171
+
+218382273-218   4114 -AGATTGTGGTGAGCCGAGATCATGCCATTGCA-CTCCA-GCCTG-----   4155
+                      ||.||.|||   ||.|   |||.||||  ||| |.||| |.|||     
+74414318-7442   4172 TAGTTTCTGG---GCTG---TCAGGCCA--GCATCACCAGGTCTGCTCTA   4213
+
+218382273-218   4156 --GG--------------CAACAAGAG-----------CAAAACTCTATT   4178
+                       ||              ||||..|||           |||.||.|.|.|
+74414318-7442   4214 AAGGGTTCCACCACGAATCAACGTGAGGACCAACGTTCCAACACACAAAT   4263
+
+218382273-218   4179 --TCGAAA-----AAAA-----AAAAAA---------AAGTTTATCTC--   4205
+                       ||||.|     |.||     |.|..|         ||||.|.||||  
+74414318-7442   4264 CCTCGAGAGGCCCAGAACTGCCAGAGCACACTCCTTTAAGTGTGTCTCTT   4313
+
+218382273-218   4206 --------------TGCCTTTCCA----------TCTCCTGTAT-GCTCT   4230
+                                   ||..|||.||          || |||||.| .||||
+74414318-7442   4314 TTCTTTTTCGGTTTTGGTTTTACAAGACAGGGTTTC-CCTGTGTAACTCT   4362
+
+218382273-218   4231 -----TCCTA-----CATAAGGTAG--GAAGC---CCATTGG-----CCA   4260
+                          |||||     ||....||||  .||||   ||  |||     |||
+74414318-7442   4363 AGCTGTCCTAGAACTCACTCTGTAGACCAAGCTGGCC--TGGAACTCCCA   4410
+
+218382273-218   4261 GA---CTGTCT-----------------------AGTAA----ATGTAGT   4280
+                     ||   ||||.|                       |.|||    |||| ||
+74414318-7442   4411 GAGATCTGTGTGCCTCTGCCTCCCGAGTGCTGGGATTAAAGGCATGT-GT   4459
+
+218382273-218   4281 ---------------------CTG------AGAC--GACAGACAAATGT-   4300
+                                          |||      |.||  |.|.|.||||||| 
+74414318-7442   4460 GCCCTCACGGGCCCGGCAATCCTGTCCTATAAACTTGGCTGGCAAATGTG   4509
+
+218382273-218   4301 --AGT--------------CTG-------------AGA-CG---ACAGGC   4317
+                       |||              |||             ||| ||   |.||||
+74414318-7442   4510 AAAGTGCACAGACTTCCAGCTGCTCAGCACAGTGCAGAGCGTGCAAAGGC   4559
+
+218382273-218   4318 A----------AAT-------AACCGGCCCACCCT-------TAATGAAG   4343
+                     |          |||       ||.|.| |||.|.|       |||.||||
+74414318-7442   4560 AAGAAAAGTGGAATGAATGTCAAGCAG-CCAGCTTCTTCTTCTAAGGAAG   4608
+
+218382273-218   4344 -GATCATCTCCTCCCCATAGGTGCCCCGCACCGTCCTCTGGCTGACCATC   4392
+                      || |||   |||.||||||||||||||||.|.||||||||||||||||.
+74414318-7442   4609 TGA-CAT---CTCGCCATAGGTGCCCCGCATCCTCCTCTGGCTGACCATT   4654
+
+218382273-218   4393 GAGCTAGCCATTGTGGGCTCCGACATGCAGGAAGTCATCGGCACGGCCAT   4442
+                     |||||.||||||||||||||.||.|||||||||||||||||.|||||.||
+74414318-7442   4655 GAGCTGGCCATTGTGGGCTCAGATATGCAGGAAGTCATCGGGACGGCTAT   4704
+
+218382273-218   4443 TGCATTCAATCTGCTCTCAGCTGGACGGTACCACCCCAGTGTACCCCAAC   4492
+                     ..|.||||||||||||||.|||||||||||.||..|.|| |.|.||||  
+74414318-7442   4705 CTCCTTCAATCTGCTCTCCGCTGGACGGTATCATGCTAG-GGAGCCCA--   4751
+
+218382273-218   4493 TCTTCAG-GCCAGGCAGAGAACAGCTGCTGCTACTTCCCCCCCTA--ACC   4539
+                      |.|||| |||||||.|.|...|||..|||    ||.||.|.|.|  ||.
+74414318-7442   4752 -CCTCAGTGCCAGGCTGCGGGGAGCCACTG----TTTCCTCTCCAGGACA   4796
+
+218382273-218   4540 AGTCCCTCCCAGAGTCTATTTTATC-CTGCTGTCCCCTCTGAAGCAGGGC   4588
+                     ||.|||.|||..| |||||.||||| |      |||.|.|..||.|||||
+74414318-7442   4797 AGCCCCACCCCCA-TCTATGTTATCAC------CCCATTTCCAGTAGGGC   4839
+
+218382273-218   4589 TGCTG---CCCTGTTTTCCAGAAATGTAAAGTGACTTGTCTAAAGTCACA   4635
+                     |..||   ..||.||||..|||           ||||||   ..||||||
+74414318-7442   4840 TCGTGGGAATCTATTTTTTAGA-----------ACTTGT---GGGTCACA   4875
+
+218382273-218   4636 CAGATGTGAG-TCATG--CAGGACTTTGGGACTGCAGCCCCAAACTCCCT   4682
+                            ||| .||.|  ||||.||             |||.|.|.||| 
+74414318-7442   4876 -------GAGCACAAGGCCAGGGCT-------------CCCTACCACCC-   4904
+
+218382273-218   4683 GCTGCGCC-------GGGTGCCAGGTCTCTCCTCTAGCTCTGCCCTGCCT   4725
+                      |||..||       |||||            ||||             |
+74414318-7442   4905 -CTGGTCCCCTTCCTGGGTG------------TCTA-------------T   4928
+
+218382273-218   4726 CGACTGTTCTATGCCAC-ACTCCCACTCCCCT----------TGCCCTAG   4764
+                     .|| |||||.|   ||| ||.|.|||||||||          ||.||.||
+74414318-7442   4929 AGA-TGTTCAA---CACAACCCACACTCCCCTCATCCTAAGCTGGCCAAG   4974
+
+218382273-218   4765 CTGTCTGGGGGCGCTTAGGGTCCTG-CTCCCAGGAGGCCAGATTCCTGTC   4813
+                     ||.|          ||.||.||||| ||||       ||||||       
+74414318-7442   4975 CTAT----------TTGGGTTCCTGACTCC-------CCAGAT-------   5000
+
+218382273-218   4814 TCCAGCCCTGAGGCTCCGTAGGAGTTAGAGACCCCTGGACCAGGCTGGGC   4863
+                                                       ||||..|||||| |..
+74414318-7442   5001 ----------------------------------CTGGGTCAGGCT-GAT   5015
+
+218382273-218   4864 TGACCCGGGCCACTCTGGTTTCAGAATCCCACTCTGGGGTGGCGTCCTCA   4913
+                     |||.|.|..|.||| |||||||||.|||||.||.||||..||.||.||.|
+74414318-7442   5016 TGATCTGCCCTACT-TGGTTTCAGCATCCCGCTGTGGGACGGTGTACTGA   5064
+
+218382273-218   4914 TCACCATCGTGGACACCTTCTTCTTCCTCTTCCTCGATAACTACGGTGGG   4963
+                     |||||||.||||||||||||||||||||||||.|.||||||||.||||.|
+74414318-7442   5065 TCACCATTGTGGACACCTTCTTCTTCCTCTTCTTGGATAACTATGGTGAG   5114
+
+218382273-218   4964 TGCACACCCCACCTCATAGGGG-----AGTGGTGGTGGTGAGG--GTGCT   5006
+                     .|.|..||||.|.||.|.||||     |||          |||  |.|||
+74414318-7442   5115 AGAAAGCCCCTCATCTTGGGGGATAAAAGT----------AGGCAGGGCT   5154
+
+218382273-218   5007 GTACTGGGAGAAGGGCTCTGACATCGAACAGCCT-GGGAGCGCACCTG-A   5054
+                     |..||.||.||   ||..||.|.||     .||| |||       ||| .
+74414318-7442   5155 GCCCTTGGGGA---GCCTTGGCTTC-----TCCTAGGG-------CTGTG   5189
+
+218382273-218   5055 GCTCCCTCACTCTCC--CT-----GGGTGGCCTCTAGCGAGTTACTTGGA   5097
+                     |.||||.|.|..|||  ||     |.|||      |||.|.|||||    
+74414318-7442   5190 GGTCCCCCCCCATCCAGCTATATGGTGTG------AGCAACTTACT----   5229
+
+218382273-218   5098 CGTGCCTC--TCTTCA---CCTGTAACATGGGGAAATAATAGCACAGACT   5142
+                     |.||..||  |.||||   .||||||||| ||||.|.||.|.| |||...
+74414318-7442   5230 CCTGTTTCCGTTTTCATTTTCTGTAACAT-GGGACAGAACATC-CAGGTG   5277
+
+218382273-218   5143 TCAGAGGGTGGTTGTGAAGACTGAGTGAGGTAACATATGTTAAGCACTTG   5192
+                     |||.||||..||.||||....|.|.||||..||.|||||.|||||.|||.
+74414318-7442   5278 TCACAGGGCTGTGGTGACATTTCAATGAGAAAATATATGCTAAGCCCTTA   5327
+
+218382273-218   5193 GCACTGTGCCTAG----AAGCGCTCGTAGTATTAGCCATTACGAATTGTT   5238
+                     ||.|.|||||.||    |||.||||   ..|..|||||.|...||.||||
+74414318-7442   5328 GCCCAGTGCCCAGGACAAAGTGCTC---AAAACAGCCACTCTCAAGTGTT   5374
+
+218382273-218   5239 GATGTCACA--GATTT--TTTTCGTTGGTTTGTTTAGTTTGTTTGTTCTG   5284
+                     .||.|.|||  |||||  ||||  ||  |||.||||.||| .||.||||.
+74414318-7442   5375 TATATGACAGGGATTTGCTTTT--TT--TTTTTTTAATTT-CTTCTTCTT   5419
+
+218382273-218   5285 CT-----------------------CCGTAGGGCTGCGGAAGCTGGAAGC   5311
+                     ||                       ||.||||..||||.|||||||||||
+74414318-7442   5420 CTTTTTAAATCCTCCTTCCCTGTACCCCTAGGTTTGCGCAAGCTGGAAGC   5469
+
+218382273-218   5312 TTTTTTTGGACTCCTTATAACCATTATGGCCTTGACCTTTGGCTATGAGG   5361
+                     |||.||.||.|||||.||.|||||.|||||.||||||||.||||||||||
+74414318-7442   5470 TTTCTTCGGTCTCCTCATTACCATAATGGCTTTGACCTTCGGCTATGAGG   5519
+
+218382273-218   5362 TAGGAAGCCAGTGCTGCAACCCCACTGTGGACCTCCCAAGATCATTCCTC   5411
+                     |.|||...|||.|.|..|.|||..|      |||  ||.|||||     |
+74414318-7442   5520 TGGGATATCAGAGTTATACCCCTTC------CCT--CAGGATCA-----C   5556
+
+218382273-218   5412 TCCCTTCCC-TCTG--------GCCGCGGG--------------------   5432
+                     ||||||||| ||||        ||||..||                    
+74414318-7442   5557 TCCCTTCCCTTCTGCATGGGTAGCCGAAGGGTCTAGAGAAACAGCCCTTA   5606
+
+218382273-218   5433 --------------CTGC--GGGGGGCTGGGGTGGGATGGAGGCTGAGAA   5466
+                                   ||||  ..||||.|||||||||  |||     ||||
+74414318-7442   5607 GCCTCCATCCTTACCTGCCTTTGGGGATGGGGTGGG--GGA-----AGAA   5649
+
+218382273-218   5467 ATGGTGACCGCGGCGTGGTTGCGAG-GGGCGGGGCTTGTCCTGACCAGGC   5515
+                                     |||| |.|| |||           |||||||.|.
+74414318-7442   5650 ----------------GGTT-CTAGTGGG-----------CTGACCAAGT   5671
+
+218382273-218   5516 TCCTCCCTGCAGTATGTGGTGGCGCGTCCTGAGCAGGGAGCGCTTCTTCG   5565
+                     |||||||..|||||||||||.||.|..|||...|||||||||||.|||..
+74414318-7442   5672 TCCTCCCCACAGTATGTGGTAGCACACCCTTCCCAGGGAGCGCTCCTTAA   5721
+
+218382273-218   5566 GGGCCTGTTCCTGCCCTCGTGCCCGGGCTGCGGCCACCCCGAGCTGCTGC   5615
+                     |||||||.|.||||||.|.||.||||||||.||.||.|||||||||||||
+74414318-7442   5722 GGGCCTGGTGCTGCCCACCTGTCCGGGCTGTGGGCAGCCCGAGCTGCTGC   5771
+
+218382273-218   5616 AGGCGGTGGGCATTGTTGGCGCCATCATCATGCCCCACAACATCTACCTG   5665
+                     ||||.||||||||.||.||.|||||||||||||||||.||||||||||||
+74414318-7442   5772 AGGCAGTGGGCATCGTCGGTGCCATCATCATGCCCCATAACATCTACCTG   5821
+
+218382273-218   5666 CACTCGGCCCTGGTCAAGGTGAGCAGAG----GGGAGGGGAAAGGAGACC   5711
+                     |||||.|||.||||||||||||||||||    |||||||   |||||   
+74414318-7442   5822 CACTCAGCCTTGGTCAAGGTGAGCAGAGCAGAGGGAGGG---AGGAG---   5865
+
+218382273-218   5712 CCCTCACTCAGTCGGAGCCATGCTGGCTCCGCCTCCAAGCCTGGAGCCCC   5761
+                                 .||||                         ||||    
+74414318-7442   5866 ------------GGGAG-------------------------GGAG----   5874
+
+218382273-218   5762 TCCCCTCTGGCTCCTTCCCTCAGGATTTGCGGAGCCTGTAATAATTGAGG   5811
+                                                                  .||||
+74414318-7442   5875 ---------------------------------------------AGAGG   5879
+
+218382273-218   5812 GACAGGCGGGGCGCCATGGCTCACGCCTGTAATCCCAGCACTTTGGGAGG   5861
+                     ||                                          ||||| 
+74414318-7442   5880 GA------------------------------------------GGGAG-   5886
+
+218382273-218   5862 CGGAGGCGGGCGGATCACGAGGTCAAGAGATCGACACCATCCTGGTCAAC   5911
+                      |||||            ||||    ||                      
+74414318-7442   5887 -GGAGG------------GAGG----GA----------------------   5897
+
+218382273-218   5912 ATGGCGAAACCCCGTCTCTACTAAAAATACAAAAACTAGCTGGGCGTGGT   5961
+                                                                       
+74414318-7442   5897 --------------------------------------------------   5897
+
+218382273-218   5962 GGCGCGCGCCTGTAGTCCCAGCGGCTCGGGAGGCTGAGGCAGGAGAATCG   6011
+                                                ||||||  ||||.||| ||    
+74414318-7442   5898 ---------------------------GGGAGG--GAGGGAGG-GA----   5913
+
+218382273-218   6012 CTTGAACCCGGGAGGCAGAGGTTGCGGTGAGCCGAGATCTTGCCACTGCA   6061
+                              ||||||  ||||                             
+74414318-7442   5914 ---------GGGAGG--GAGG-----------------------------   5923
+
+218382273-218   6062 CCACTCCAGCCTGGCGACAGAGCGAGACTCTGTCTCAAAAAAAAAAAAAA   6111
+                                    ||.||||.||                         
+74414318-7442   5924 ---------------GAGAGAGGGA-------------------------   5933
+
+218382273-218   6112 AAGAAAAGAAAAAGTGTCTACTGTGCGCTGGGAGGAACAGACCGTCAAGG   6161
+                                                  |||||                
+74414318-7442   5934 -----------------------------GGGAG----------------   5938
+
+218382273-218   6162 CCTCTGCCCTTCTAGAGTTTCCGTGCTAGTGGGGTAGACGGATGACAAGC   6211
+                                                                       
+74414318-7442   5938 --------------------------------------------------   5938
+
+218382273-218   6212 AAGTAAACCAACAAAGGAAAGAATTATAGGCCGGGCGCAGTGGCTCACGC   6261
+                                                                       
+74414318-7442   5938 --------------------------------------------------   5938
+
+218382273-218   6262 CTGTAATCCCAGCACTTCAGGAGGCCGAGGCGGGCGGGCGGATCACGAGG   6311
+                                        |||||  ||||..||.|||.|||||.|    
+74414318-7442   5939 -------------------GGAGG--GAGGGAGGAGGGAGGATCCC----   5963
+
+218382273-218   6312 TCAGGAGTT-TGAGACCTCAACAGCCTGGCCAACATGGTGAAATCCCGTC   6360
+                          |.|| ||          |||||||            |.|||.|.|
+74414318-7442   5964 -----ATTTCTG----------AGCCTGG------------ACTCCTGCC   5986
+
+218382273-218   6361 TGTACTAAAAATACAGAAAATTAGCCGGAAGTGGTGGCGCGTGCCTGTAA   6410
+                     |            ||||                        |||||    
+74414318-7442   5987 T------------CAGA------------------------TGCCT----   5996
+
+218382273-218   6411 TCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCGCTTGAAGCCAGTAGG   6460
+                                                       .|||            
+74414318-7442   5997 ----------------------------------TCTT------------   6000
+
+218382273-218   6461 CGGAAGTTGCAGTGAGGGGAGATGGTGACATTGCACTCCAGCCTGAGTGA   6510
+                                 ||||||  ..|.||||                     |
+74414318-7442   6001 ------------TGAGGG--TCTTGTGA---------------------A   6015
+
+218382273-218   6511 CAAAGCAAGACTCCGTCTCAAAAAAAGAAAAAGAACAAGAACTATAGAGC   6560
+                     .||.|   ||||||.||||                               
+74414318-7442   6016 GAACG---GACTCCCTCTC-------------------------------   6031
+
+218382273-218   6561 TGGGCGAGGTGGCTCACGCCTGTAATCCCGGCACTTCAGGAG-GCAGAGG   6609
+                               ||.||| ||||||           ||     | ||.||  
+74414318-7442   6032 ----------GGTTCA-GCCTGT-----------TT-----GTGCTGA--   6052
+
+218382273-218   6610 CAGGTGGATCGCTTGAGCCCAGGAGTTCGAGACCACCCTG-GGCAACATG   6658
+                     |||||                                ||| |||||    
+74414318-7442   6053 CAGGT--------------------------------CTGAGGCAA----   6066
+
+218382273-218   6659 ATAAAACCCTGTCTCTACCAACAAAAAATAAAAAATAAAATAAATTAGTT   6708
+                                     |.||||||                 |.||.||| 
+74414318-7442   6067 ----------------ATCAACAA-----------------ACATCAGT-   6082
+
+218382273-218   6709 GGGTGTTGTGCACACCTGTAGTCCTAGTTACTCAGGAGGTTGAGGCTTGA   6758
+                               ||       ||.|||||..|||            ||   |
+74414318-7442   6083 ----------CA-------AGGCCTAGAAACT------------GC---A   6100
+
+218382273-218   6759 GCCCTGGAGGTCGAGGCTGCAGTGAGCTGAGATCCCACCACTGCACTCTC   6808
+                     .||                             ||||.||        |||
+74414318-7442   6101 TCC-----------------------------TCCCTCC--------CTC   6113
+
+218382273-218   6809 AGTGACACAGTGAGACCCTGTCAAAATAATAATAATAATAATAATAATAA   6858
+                     |                 |||                             
+74414318-7442   6114 A-----------------TGT-----------------------------   6117
+
+218382273-218   6859 TTGCGAAAGGGACTCTGAAGTAAACAA-AACAGAGAAATATGATAGAGAA   6907
+                           |.|||||    ||  |.|||| |.|||.|.||    ||||||.|
+74414318-7442   6118 ------AGGGGAC----AA--AGACAAGAGCAGTGTAA----ATAGAGGA   6151
+
+218382273-218   6908 --TGACTGAAAGTTGGGGAAGTAGATCAGGGAAAAGATATTACAAGCGGA   6955
+                       .||||| ..|||||.|||       |||.|      .|.|||    ||
+74414318-7442   6152 GGGGACTG-TGGTTGGTGAA-------AGGCA------CTCACA----GA   6183
+
+218382273-218   6956 GGGAAAGCAAGTGCAAAGGCCACTGGCAGAAGTGAACAAGGCTTGGGTCC   7005
+                     ||||.|  ||..|.||||   |||||                 |||    
+74414318-7442   6184 GGGACA--AACGGAAAAG---ACTGG-----------------TGG----   6207
+
+218382273-218   7006 CTAACAG-CTTAACAG--TGGCTCACACCTGTAATCTCAGCATTTTAAGA   7052
+                        |||| ||  .|||  ||||                           |
+74414318-7442   6208 ---ACAGACT--GCAGGATGGC---------------------------A   6225
+
+218382273-218   7053 GGCCAAGACA-GGAGAATGCTTGAGCCCAGGAGTTCAAGGCTAGCCTAGC   7101
+                     ||.| ||||| ||||||     ||.|                     |||
+74414318-7442   6226 GGGC-AGACAGGGAGAA-----GAAC---------------------AGC   6248
+
+218382273-218   7102 AAGACCCTGTCTCTGCAGAAAATTTAAAAATTAGCGGGTTGTAGTGGTGT   7151
+                     |||          ||||                                 
+74414318-7442   6249 AAG----------TGCA---------------------------------   6255
+
+218382273-218   7152 GTGTCTGTGGTCCCAGCTACTTAGGAGGCTGGGGCAGGAGGATCACTTGG   7201
+                                           |.|||.|||    |||.|||        
+74414318-7442   6256 ----------------------AAGAGCCTG----AGGTGGA--------   6271
+
+218382273-218   7202 GCCCATGAGTTGGAGGCTGCAGTGAGCCATGCATTGCACCACGGCACTCC   7251
+                                                                       
+74414318-7442   6271 --------------------------------------------------   6271
+
+218382273-218   7252 AGTCTGGGTGACAGAACAAAACCTGTCTCTAAAAAATAAAATAAAGTAAG   7301
+                               ||.||||.|                               
+74414318-7442   6272 ----------ACCGAACCA-------------------------------   6280
+
+218382273-218   7302 CTGGACACGTCTGAGGATGGAACAAG-GTGAGTGAAGGA---------GC   7341
+                        |||||||.|||.||||    ||| |||| ||.||||         |.
+74414318-7442   6281 ---GACACGTTTGATGATG----AAGCGTGA-TGGAGGAAGGGGGAGGGG   6322
+
+218382273-218   7342 GTGTCAGGACCTGAGGTAGCCAGGGACCTCAAAGGCCAG-CCTTGCTTCA   7390
+                     .|.|||||  |||||.||...||||||||||||||.||| .|||.|||||
+74414318-7442   6323 ATATCAGG--CTGAGTTACAGAGGGACCTCAAAGGTCAGATCTTCCTTCA   6370
+
+218382273-218   7391 CCCACACAGTGGCTTACAGTGGTA--AGGCCTCTGTGGCAAGAACAGAGA   7438
+                     ..||||.|.|.|.|.||..||| |  ||.||||  |.|||||.|||.|||
+74414318-7442   6371 TTCACATAATTGGTCACTATGG-ACCAGACCTC--TAGCAAGGACAAAGA   6417
+
+218382273-218   7439 TGTAGGAAACCATCGGCTGACCTGAACCTGCCCCAGACTGCCACGCAGGG   7488
+                     |||.||.|..|..|.|||||||.|.|||||...||||||.||||..||||
+74414318-7442   6418 TGTGGGCAGGCGGCAGCTGACCAGGACCTGAATCAGACTACCACATAGGG   6467
+
+218382273-218   7489 GACTT---AAGAA-GGT-ACTGGGCTTTGGGGAGAACATAGAAGT-----   7528
+                     |||||   .|||| ||| |||        ..|||||.|.||||||     
+74414318-7442   6468 GACTTTCCCAGAACGGTGACT--------CAGAGAAGACAGAAGTATAGA   6509
+
+218382273-218   7529 GTGAGGGTGGGGGACACTGTGGTGGCTCTGAGGGACTTTGGCACTTCCCT   7578
+                     .||.||||.|||||||.|| |||..||||||||||||||||..|||||||
+74414318-7442   6510 ATGGGGGTAGGGGACATTG-GGTATCTCTGAGGGACTTTGGTCCTTCCCT   6558
+
+218382273-218   7579 CTC-CCTTTGATCTTCGTAGTCTCGAGAGATAGACCGGGCCCGCCGAGCA   7627
+                      || |||.|||.|||..||||||.||||..|||||.|..|||||||.|..
+74414318-7442   6559 -TCACCTCTGACCTTACTAGTCTAGAGAAGTAGACAGAACCCGCCGGGTG   6607
+
+218382273-218   7628 GACATCAGAGAAGCCAACATGTACTTCCTGATTGAGGCCACCATCGCCCT   7677
+                     ||..|..|||||||||||||||||||||||||||||||||||||||||||
+74414318-7442   6608 GATGTTCGAGAAGCCAACATGTACTTCCTGATTGAGGCCACCATCGCCCT   6657
+
+218382273-218   7678 GTCCGTCTCCTTTATCATCAACCTCTTTGTCATGGCTGTCTTTGGGCAGG   7727
+                     .||.||.|||||.||||||||||||||.|||||||||||.|||||.||||
+74414318-7442   6658 ATCGGTGTCCTTCATCATCAACCTCTTCGTCATGGCTGTTTTTGGTCAGG   6707
+
+218382273-218   7728 CCTTCTACCAGAAAACCAACCAGGCTGCGGTGAGACACACTTTCCCCCGC   7777
+                     |||||||||||.|||||||..|||..||||||||.|.||||.||||...|
+74414318-7442   6708 CCTTCTACCAGCAAACCAATGAGGAAGCGGTGAGTCTCACTGTCCCTATC   6757
+
+218382273-218   7778 ACCTGAG--------------GCCACACACGTACTCATGTCCTGTA--AG   7811
+                     |||  ||              .||||||.|   |.||.|.||   |  ||
+74414318-7442   6758 ACC--AGCTCATTTGCATATACCCACACCC---CACAGGCCC---ACCAG   6799
+
+218382273-218   7812 CCTTGCCGAGGACCCTAGGCAATG----CAGCTGAGCCCTTCTGAGTCTC   7857
+                     |.|.|||..|||..|.|||..|.|    ||..|...||||.|.|||||||
+74414318-7442   6800 CTTGGCCAGGGATTCCAGGTCACGGGGCCACATCCTCCCTCCGGAGTCTC   6849
+
+218382273-218   7858 TGC--------------------CCTGATGATCT----TCCCTGTTGGCA   7883
+                     |||                    ||..||.||||    ||||.|.||.||
+74414318-7442   6850 TGCTGGACTCTGAGCTCTTCTTTCCCCATCATCTCAGCTCCCAGATGACA   6899
+
+218382273-218   7884 GATATCATTCATTCAGCAAATAATCATTGAGCATTTGTTAT----ATACC   7929
+                     |.|.|||.|||.|..| ||.||.|..||| ||  |||..||    .||||
+74414318-7442   6900 GGTGTCAATCACTTTG-AAGTACTGCTTG-GC--TTGAGATGTTGGTACC   6945
+
+218382273-218   7930 AAG-CACATCCT-AGA---CCCTGGGGATACAGCAGTCAATGCTACAAAG   7974
+                     |.| |.|| ||| |||   |||.|||  ||.||||         |..|||
+74414318-7442   6946 AGGCCTCA-CCTAAGAGCCCCCAGGG--TAAAGCA---------AGCAAG   6983
+
+218382273-218   7975 AC--CCA-----GCTCT---CTGCAGCTTAAATAGGGAGGGAGGTGAGCA   8014
+                     .|  |||     |||||   .||.|||..|.|.|||| |.||.||||...
+74414318-7442   6984 CCCTCCACCTTTGCTCTTGAATGTAGCGAACACAGGG-GAGATGTGAAGT   7032
+
+218382273-218   8015 GACAGGAA-TGAA--TACCCA-------------AGGGAAGTACAGAGTG   8048
+                     |||||||| |.||  .|||||             |||||..|.||||   
+74414318-7442   7033 GACAGGAAGTCAACCCACCCACCAGTGAGCGCTCAGGGACCTTCAGA---   7079
+
+218382273-218   8049 GGAAGAAATAAAGGGGGTGAAGAAGCATAGTTGGGGGTATGGGGGTGGGG   8098
+                                    ||||.||.||                         
+74414318-7442   7080 ---------------GGTGGAGCAG-------------------------   7089
+
+218382273-218   8099 TCTGCATTAGC-CCAGGTGGTCAGGAAAGGCTTCTTGGAAGAGATGACAT   8147
+                       |||   ||| ||||||||   |||          .|.||| |||||| 
+74414318-7442   7090 --TGC---AGCTCCAGGTGG---GGA----------TGCAGA-ATGACA-   7119
+
+218382273-218   8148 TTGTGCTAATACTGGAAAAGGAACTAGCCAGCTCCTCCCTGACTCTCTGG   8197
+                        .||||    .||..||||              |||||||        
+74414318-7442   7120 ---GGCTA----GGGCTAAGG--------------TCCCTGA--------   7140
+
+218382273-218   8198 GATCTGGGACCTG--TG-TCTGTCTCCCCTTCTGAG--TGGATCTCA---   8239
+                          ||||||||  || ||||  |.||||.|.|||  ||||.||.|   
+74414318-7442   7141 -----GGGACCTGACTGTTCTG--TTCCCTCCGGAGGCTGGAGCTGATGG   7183
+
+218382273-218   8240 -------GTCA------------------TGAGGCTCTAACAACTGCAGC   8264
+                            |.||                  .|||.|..||||.||||||  
+74414318-7442   7184 GAGTGGGGGCAGGGGGGACGTGGAGACTGGGAGTCAATAACCACTGCA--   7231
+
+218382273-218   8265 CAGGGTTGG--GGGCTTCCTGAA------TGCTGAGCCCTGTGGGAGAAG   8306
+                         .||||  |..|||.||.||      |.|||||   ||||.|||  |
+74414318-7442   7232 ----CTTGGAAGTCCTTGCTAAATAAATGTCCTGAG---TGTGTGAG--G   7272
+
+218382273-218   8307 --------------GGGTG-------GCCAGGCCTC-CA--------AGG   8326
+                                   ||.||       ||||  |||| ||        |||
+74414318-7442   7273 TTGCATCCATTCTTGGATGTCACTCTGCCA--CCTCGCATGAGGGAGAGG   7320
+
+218382273-218   8327 A-------------------CCTGG--------------GCACTGCCACT   8343
+                     |                   |||||              .|.||.||.||
+74414318-7442   7321 ACTCTATAGGGACTTTAAAGCCTGGTTTCCTTCCCTCCCTCCCTTCCTCT   7370
+
+218382273-218   8344 GC----------------------------CTTGCTCTGTGACCTTGGGA   8365
+                     .|                            |||.||||.|   |||    
+74414318-7442   7371 TCTTTCCTTCCTTTCTTTCTTTCTTCCTTTCTTTCTCTTT---CTT----   7413
+
+218382273-218   8366 GGTCACACTC----------------------------------------   8375
+                       ||.|.|||                                        
+74414318-7442   7414 --TCTCTCTCTCTCTCTCTCTCTCTCTCTCTTTCTTTCTTTCTTTCTCTC   7461
+
+218382273-218   8375 --------------------------------------------------   8375
+                                                                       
+74414318-7442   7462 TCTCTTCCCCTTCCTTCCTTCCTTCCTTCCTTCCTTTCTTTTCTCTCTCT   7511
+
+218382273-218   8376 --------------------------------CTCCCTGGGTCTCACTCT   8393
+                                                     |||.||...||||.||||
+74414318-7442   7512 CTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCT   7561
+
+218382273-218   8394 GTTCCTTGGC---------ACAAGG-------------------------   8409
+                     .|||.||  |         |||.||                         
+74414318-7442   7562 CTTCTTT--CTTTTTCAAGACAGGGTTTCTTTGTGGGTAATCCTGGCTGT   7609
+
+218382273-218   8410 ---AGG-----------------GAGA----------TCAACATC-----   8424
+                        |||                 ||||          |||.|.||     
+74414318-7442   7610 CCCAGGCTGGCCTCAGACTCACAGAGATCTGCCTGCCTCAGCCTCCCAAG   7659
+
+218382273-218   8425 ------------AGGACTGC-AAACC---------------CTTGTCTTC   8446
+                                 |||..||| |.|||               |.|.|.|||
+74414318-7442   7660 TGCTAGCTTTAAAGGCGTGCGACACCACCACTCGGTGGAAGCCTATTTTC   7709
+
+218382273-218   8447 AA--------GACCAGGCAGGCGCAGAGTTG--TG--GGAAGTGGACAGT   8484
+                     ||        |||.|  |||||.|    |||  ||  |||||.||  |||
+74414318-7442   7710 AAATTCAAGTGACTA--CAGGCTC----TTGGATGAAGGAAGGGG--AGT   7751
+
+218382273-218   8485 GTGAAGAGGGCATGGCAGCCAGCTGTCTCTGTG----GTGATGCCA----   8526
+                     |      |||..|||.||     ||...|||||    |||.|||||    
+74414318-7442   7752 G------GGGGGTGGGAG-----TGGGGCTGTGGAATGTGGTGCCAATGT   7790
+
+218382273-218   8527 GCTCTTACGAACCTA--AAAGAAGCTGGAAACTGGGTTCTTATGCCAGGC   8574
+                     || ||     |||||  ..|||..||||||.|            ||||  
+74414318-7442   7791 GC-CT-----ACCTATCCCAGAGCCTGGAAGC------------CCAG--   7820
+
+218382273-218   8575 CTTCTC-----------AATTTTAAATGTTGGCAACAAATCCACATTAAA   8613
+                      |||||           ||||.|||||..|..|||||.||.|||| ..||
+74414318-7442   7821 -TTCTCACCTGGAGCAGAATTGTAAATTCTAACAACACATTCACA-GCAA   7868
+
+218382273-218   8614 GAAAAAAAAAACCCGGCCGGGTGCGGTGGCTCACGCCTGTAATCCCAGCA   8663
+                     ||.|||.||||||..|..|||...|||||||||.|.||..|||||.||||
+74414318-7442   7869 GAGAAATAAAACCAAGGTGGGCATGGTGGCTCATGACTTAAATCCTAGCA   7918
+
+218382273-218   8664 CTTTGGGAGGCTGAGGCAGATGGCTCGCTTGAGCCCGGGAGTTCAAGACC   8713
+                     ||                                 |||.|       |.|
+74414318-7442   7919 CT---------------------------------CGGTA-------AGC   7928
+
+218382273-218   8714 AACCTGGGCAACATGACAAGACCCCCATCGCTACAAAACGTAAAAGTAAA   8763
+                     ||       ||.|.||.|||                     |||||.|||
+74414318-7442   7929 AA-------AAGAAGAGAAG---------------------AAAAGAAAA   7950
+
+218382273-218   8764 ACAAAACAAAACCCAACTTATT------TTGT---TAGCCAAACAAA---   8801
+                     |||||||..||.|||  |||||      .|||   |||.||.|||.|   
+74414318-7442   7951 ACAAAACCCAAACCA--TTATTAGCAAAGTGTGTCTAGGCAGACATAACC   7998
+
+218382273-218   8802 ----------ATATGT----------------------------------   8807
+                               |||.||                                  
+74414318-7442   7999 TGCAGGATCTATAGGTTTTCTTTTTGTTGCTGTATTGTTATTTTGAGACC   8048
+
+218382273-218   8808 ----------------------------CTGG---------------CCA   8814
+                                                 ||||               |||
+74414318-7442   8049 AGGGTTTCTCTGTATAGCCTGAGCTGTCCTGGAACTCGCTCTATAAACCA   8098
+
+218382273-218   8815 GATTCAGCCTTG---------------GGCCACC-----------AGT--   8836
+                     |..| |||||||               |.|.|||           |||  
+74414318-7442   8099 GGCT-AGCCTTGAATTTACAGAGATCTGCCTACCTCTGCCTCCCAAGTGC   8147
+
+218382273-218   8837 --------TTT--GG---------------------------AACCCTGG   8849
+                             |||  ||                           |||||.||
+74414318-7442   8148 TAGGATTCTTTAAGGCATGTGTGACAACCGCCACCCTGAGCAAACCCCGG   8197
+
+218382273-218   8850 TCAGTG-CTAG--GCAGTCC--AGTTTCCCAAGGCTGAGCGTGC--TCCT   8892
+                     |..|.| ||||  |..||||  |.|||||.||.| ||||..|||  |..|
+74414318-7442   8198 TTGGGGCCTAGCTGGGGTCCTGATTTTCCAAAAG-TGAGTTTGCGTTTTT   8246
+
+218382273-218   8893 CACATCTTCCTTC-TACTG---CCCTGGTACCCACAGTTCAACATCTGTG   8938
+                     |.|| |.|||||| |||||   |||.|   ||..||||||||||||||||
+74414318-7442   8247 CCCA-CGTCCTTCGTACTGACTCCCGG---CCTGCAGTTCAACATCTGTG   8292
+
+218382273-218   8939 CCAACAGCAGCCTCCACGACTACGCCAAGATCTTCCCCATGAACAACGCC   8988
+                     ||||||||||||||||..||||.||.|||||||||||||.|.||||...|
+74414318-7442   8293 CCAACAGCAGCCTCCAGAACTATGCTAAGATCTTCCCCAGGGACAATAAC   8342
+
+218382273-218   8989 ACCGTGGCCGTGGACATTTACCAGGGGGTGAG-----CGCGGG-----TG   9028
+                     ||.|||.|.|||||.|||||.||.||.||.||     |.|..|     ||
+74414318-7442   8343 ACTGTGTCAGTGGATATTTATCAAGGAGTAAGTACCACTCAAGCCCAATG   8392
+
+218382273-218   9029 GGTGGGGAGGGCGTGACCCAGAG--AGGCTCCCCGCC--TCGGGCAGGGC   9074
+                     ..|||..|.|.|.||.||.||.|  |||     ||.|  |.|||..||||
+74414318-7442   8393 TTTGGCCACGCCTTGTCCGAGGGTAAGG-----CGTCTATTGGGTGGGGC   8437
+
+218382273-218   9075 CACCGGTCCTACCAC-ACTCGTCCCTGCAGGGCGTGATCCTGGGCTGCCT   9123
+                     | .|.|||..|.||| .|||.|||.|..||||.||||||||.|||||.||
+74414318-7442   8438 C-TCTGTCTGATCACGCCTCCTCCTTTTAGGGTGTGATCCTAGGCTGTCT   8486
+
+218382273-218   9124 GTTCGGCCCCGCGGCCCTCTACATCTGGGCCATAGGTCTCCTGGCGGCTG   9173
+                     .||.|||||.||||||||||||||||||||..|||||||||||||.||.|
+74414318-7442   8487 CTTTGGCCCTGCGGCCCTCTACATCTGGGCAGTAGGTCTCCTGGCAGCGG   8536
+
+218382273-218   9174 GGCAGAGCTCCACCATGACGGGCACCTACGCGGGACAGTTCGTGATGGAG   9223
+                     |||||||.||.||.|||||.||||||||.||.||||||||||||||||||
+74414318-7442   8537 GGCAGAGTTCTACTATGACCGGCACCTATGCAGGACAGTTCGTGATGGAG   8586
+
+218382273-218   9224 GTAGGGCAGGGGGCGGGCCCAGGAGGGCAAGGGGTCCAAGGACAGCAGGC   9273
+                     || |||.|            ..||||||       ||||.||.|||||.|
+74414318-7442   8587 GT-GGGTA------------TCGAGGGC-------CCAAAGATAGCAGAC   8616
+
+218382273-218   9274 ACACTACTGGGGGCTAGAACTCCGAGCCTTGTGGGTCCTCTTTTCTTTTC   9323
+                     |||||.||.|.||||.|.||.|         ||||||    |||||    
+74414318-7442   8617 ACACTGCTAGAGGCTTGGACGC---------TGGGTC----TTTCT----   8649
+
+218382273-218   9324 TTTCTTTTCTTCCTTTTTTTTTGTTTTTGTTTTTGTTGTTGTTGTTGAGA   9373
+                                                                       
+74414318-7442   8649 --------------------------------------------------   8649
+
+218382273-218   9374 CGGAGTCTCGCTCTTGTCGCCCAGGCTGGAGTGCAGTGGCGCGATCTCGG   9423
+                       ||||                         |||||              
+74414318-7442   8650 --GAGT-------------------------TGCAG--------------   8658
+
+218382273-218   9424 CTCACTGCAACCTCCCCCTCCCAGGTTCAAGCTTCTCCTGCTTCAGCCTC   9473
+                                                                       
+74414318-7442   8658 --------------------------------------------------   8658
+
+218382273-218   9474 CTCAGTAGCTGGGATTTCAGGCACCTGCCACCAGGCCTGGCTAATTTTTG   9523
+                                                                       
+74414318-7442   8658 --------------------------------------------------   8658
+
+218382273-218   9524 TACTTTTAGTAGAGACAGGGTTTCGCCATGTTGGCCAGGCTAGTCTTGAA   9573
+                                    .|||||                             
+74414318-7442   8659 ---------------AAGGGT-----------------------------   8664
+
+218382273-218   9574 CTCTTGACCTCAAG-TGATCCGCCTGCCTTGGCCTCCCAAAGTGCTGGAA   9622
+                                ||| |||                                
+74414318-7442   8665 -----------AAGATGA--------------------------------   8671
+
+218382273-218   9623 TTACAGGTGTGAACCACCGCACCCGGCCAATTTTTGTATTTTTAGTAGAG   9672
+                                                ||||                   
+74414318-7442   8672 ---------------------------CAAT-------------------   8675
+
+218382273-218   9673 ACGCAGTTTTGCTGTGTTGGCCAGGCTGGTCTCAAACTCTTGACCTCGTG   9722
+                        |||                                           .
+74414318-7442   8676 ---CAG-------------------------------------------A   8679
+
+218382273-218   9723 ATCCGCCCGCCTTGGACTCCTGAAGTGCTGGGATTATAGGCGTGAGCCAC   9772
+                     ||||.||                            |.||||||       
+74414318-7442   8680 ATCCCCC----------------------------AAAGGCGT-------   8694
+
+218382273-218   9773 TGCGTCCGGCCTTTTCTTTTCTTTCTTTCTTTCCTTTTTTTTGAGACGGC   9822
+                         |||                                           
+74414318-7442   8695 ----TCC-------------------------------------------   8697
+
+218382273-218   9823 GTTTCGCTCTTATTGCCCAGGCTGGAGTGCAATGGCGCGATCTCCGGCTC   9872
+                                                                       
+74414318-7442   8697 --------------------------------------------------   8697
+
+218382273-218   9873 ACCGCAACCTCCACCTCCTGGGTTCAAGCAATTCTCCTGCCTCAGCCTCC   9922
+                                                                       
+74414318-7442   8697 --------------------------------------------------   8697
+
+218382273-218   9923 TGACCAGCTGGGATTACAGGCCACCACACCCAGCTAATTTTGTATTTTCA   9972
+                                                                ||.||||
+74414318-7442   8698 -------------------------------------------ATATTCA   8704
+
+218382273-218   9973 GTAAAGACGGGGTTTCTCCATGTTGGTCAGGGTGGTCTCGAACTCCCAGC  10022
+                     |.|||            |||     ||.|.||       |||        
+74414318-7442   8705 GCAAA------------CCA-----GTTATGG-------GAA--------   8722
+
+218382273-218  10023 CTCAGGTGATCTGCCCTCCTCAGCCTCCCAAAGTGCTGGGATTACAGGCG  10072
+                                     |||||...||||||                    
+74414318-7442   8723 ----------------TCCTCCCTCTCCCA--------------------   8736
+
+218382273-218  10073 TGAGCCACCGCGCCCGGCTCTTTCTTTCTTTTTTGAGACAGGATTTCACT  10122
+                                      |||.|.||||||                     
+74414318-7442   8737 -----------------CTCGTCCTTTCT---------------------   8748
+
+218382273-218  10123 CTGTTGCTCAGGCTGGAGTGCAATGGCGCCATCACAGCTCGCTGCAGCCT  10172
+                           |.||                  |||  ||||             
+74414318-7442   8749 ------CCCA------------------CCA--ACAG-------------   8759
+
+218382273-218  10173 CAACTTCAGCCTCCCGAGTCATTGGGACTACAGGCTCATGCCACCACACC  10222
+                                    ||||||                             
+74414318-7442   8760 ---------------GAGTCA-----------------------------   8765
+
+218382273-218  10223 AGGCTAATTTTTAAAATTATTTGTAGAGATGTGGTCTTCCTATGTTTCCC  10272
+                                                                       
+74414318-7442   8765 --------------------------------------------------   8765
+
+218382273-218  10273 AGGCTGGTCTCGAACTCCTGGGCTCAAGTGATCTTCCCGCCTTGGCTTCC  10322
+                                                  ||||                 
+74414318-7442   8766 -----------------------------GATC-----------------   8769
+
+218382273-218  10323 CAAAGTGCTGGGATTACAGACGTGAGCCACCCCACTCAGCTTTGTTTCCT  10372
+                                                                       
+74414318-7442   8769 --------------------------------------------------   8769
+
+218382273-218  10373 TCATGTAGCCCAGAGGGCGACACTATAAGCCCCATTTTACAGATGAGAAA  10422
+                                              |||.||||||||             
+74414318-7442   8770 -------------------------TAACCCCCATTT-------------   8781
+
+218382273-218  10423 ACAGATCCTGACAGATGAGGTGACTTGCTGGAAGCTGCAGACCCAGGACT  10472
+                                                               |||.|||.
+74414318-7442   8782 ------------------------------------------CCAAGACA   8789
+
+218382273-218  10473 AACAGAAGCCTTTTCCCCAAAACTGTTTAGTCTTCAGCAACCAGCTATGG  10522
+                     ||||.|.||                                     ||||
+74414318-7442   8790 AACAAATGC-------------------------------------ATGG   8802
+
+218382273-218  10523 GATGGGAGCTCCCCATTTCTCCCCACCCATCCCCTCTTGCCACCTAGGGA  10572
+                        |||||                                          
+74414318-7442   8803 ---GGGAG------------------------------------------   8807
+
+218382273-218  10573 CAGAGCTGTCCCAGTTCAACAGTGGAAAAACAGAGCATGCCCCCAGGGAT  10622
+                       |.|.||||                                        
+74414318-7442   8808 --GGGTTGTC----------------------------------------   8815
+
+218382273-218  10623 AAATCGGTTGAGGGACTACAGAGGATCTCTCCTCTGGAATCCCCAGTCCT  10672
+                             |||  |||.||.||||                 ||.|||   
+74414318-7442   8816 --------TGA--GACAACGGAGG-----------------CCAAGT---   8835
+
+218382273-218  10673 GTCTACTCCTCACCAAGGA------GTTCACCCCCACCCCAGGGCTTCCT  10716
+                          ..||.|||| ||||      ||     |||| |||||||.|||||
+74414318-7442   8836 -----AGCCCCACC-AGGATGCTTGGT-----CCCA-CCCAGGGTTTCCT   8873
+
+218382273-218  10717 GAGGCTGCGGTGGTCACGCTTCGCCCGTGTCCTCCTCACCCGCTCCTGCG  10766
+                     .|.||||||||||||.||||||||.||.|||||.|||||.|||||.||||
+74414318-7442   8874 TAAGCTGCGGTGGTCCCGCTTCGCTCGGGTCCTTCTCACGCGCTCTTGCG   8923
+
+218382273-218  10767 CCATCCTGCCCACCGTGCTCGTGGCTGTCTTCCGGGACCTGAGGGACTTG  10816
+                     |||||||||||||.|||.|.||||||||||||||.|||||||.||||.||
+74414318-7442   8924 CCATCCTGCCCACTGTGTTGGTGGCTGTCTTCCGAGACCTGAAGGACCTG   8973
+
+218382273-218  10817 TCGGGCCTCAATGATCTGCTCAACGTGCTGCAGAGCCTGCTGGTGAGATG  10866
+                     ||.||||||||.|||||.|||||.||.||||||||.||.||||||||   
+74414318-7442   8974 TCCGGCCTCAACGATCTACTCAATGTTCTGCAGAGTCTACTGGTGAG---   9020
+
+218382273-218  10867 CGCCAACCCCACCAGCCCTGCCCACTG--CTGAGCGAA-ACAGGA----C  10909
+                           |||||              ||  || || ||| |.||.|    |
+74414318-7442   9021 ------CCCCA--------------TGGTCT-AG-GAACATAGCAGCTCC   9048
+
+218382273-218  10910 CTCCAGCAACC--CCCACGCTGAG-CCTTGCATGGGCCTGCCAGGCCCTG  10956
+                     ||||  |.|||  ||.||    || |||   |||||..|         ||
+74414318-7442   9049 CTCC--CTACCCTCCAAC----AGTCCT---ATGGGGTT---------TG   9080
+
+218382273-218  10957 TCCCAGGCACATCTTGCCTACAAGGCTTCCATTGTCCCCACAGCCACCCT  11006
+                     .||.|..||| ||      || |||.||         |.||||||||.||
+74414318-7442   9081 CCCTAAACAC-TC------AC-AGGATT---------CTACAGCCACACT   9113
+
+218382273-218  11007 GGGGGGCAGGAGGGTAGGAATCACCATTATCCTTCCCCCCT---CCCACC  11053
+                     ......||.||||                     ||||.||   ||||..
+74414318-7442   9114 AAAAAACAAGAGG---------------------CCCCACTGTCCCCATT   9142
+
+218382273-218  11054 CCCCAGATGG-----TCTCCCTCTGTCACCTAGGCTGGAGTGCAGTGGTT  11098
+                     ||.|||||.|     ||                     ||||||.|||.|
+74414318-7442   9143 CCACAGATAGAAAAATC---------------------AGTGCATTGGGT   9171
+
+218382273-218  11099 CAATCATGGCTCACTGCAGCCTGCCCTCCCTGTCTCTAGCAATCTTCCCA  11148
+                           |||.|.||||.||.|||..||..|..||     .|||     .|
+74414318-7442   9172 ------TGGTTGACTGGAGGCTGAGCTGACATTC-----AAAT-----AA   9205
+
+218382273-218  11149 CCTCAGGCTCCCGAGTAGCAGGGACTATAGGTGCATGCCATCACACCCAG  11198
+                     |..|||.||   ||| |||                  ||..|||||    
+74414318-7442   9206 CAGCAGTCT---GAG-AGC------------------CCTGCACAC----   9229
+
+218382273-218  11199 CTAATTTTTTTTTTTTTTTTTTTGAGACGGAG------TTTCA---CTCT  11239
+                                        |||||||||..||      ..|||   ||||
+74414318-7442   9230 -------------------TTTTGAGACACAGAATACTGCTCAGGGCTCT   9260
+
+218382273-218  11240 TGTTACCCAGGCTAGAGTGCAGTGGTGAGATCTTGGCTCACTGCAACCTC  11289
+                     |.|      ||.|.|.|||..||||.|                       
+74414318-7442   9261 TTT------GGGTGGGGTGGGGTGGGG-----------------------   9281
+
+218382273-218  11290 TGCCTCCCAGGTTCAAG--CGATTCTTCTGCCTCAGCCTCCTAAGTAGCT  11337
+                             .||||||||  .||.| ||||           ||..||||| 
+74414318-7442   9282 --------GGGTTCAAGACAGAGT-TTCT-----------CTGTGTAGC-   9310
+
+218382273-218  11338 GAGATTACAAGCGCCCACCATCACACCCAGCTAATTTTTTGTATTTTTAG  11387
+                                              ||..||        |||        
+74414318-7442   9311 -------------------------CCTGGC--------TGT--------   9319
+
+218382273-218  11388 TAGAGACAGGGTTTCA-TCATGTTGGCCAGGCTAGTCTCAAACTCCTGAC  11436
+                          .|.||...||| || |||.|.|||||||.|.||        |||.
+74414318-7442   9320 -----CCTGGAACTCACTC-TGTAGACCAGGCTGGCCT--------TGAA   9355
+
+218382273-218  11437 CTCAGGTGATCCACCCGCCTTGGCCTCCCAAAGTGCAAGGATTACAG-GC  11485
+                     |||| |..|||||||.||||..|||||   ||||||..||||||.|| .|
+74414318-7442   9356 CTCA-GAAATCCACCTGCCTCTGCCTC---AAGTGCTGGGATTAAAGTCC   9401
+
+218382273-218  11486 ATGAGCCACTGAGGCAGGTCTAATTTTTTTTTTTTTTTAAGTAGAGACAA  11535
+                     |    ||||                                         
+74414318-7442   9402 A----CCAC-----------------------------------------   9406
+
+218382273-218  11536 AAGCTCATTATGTTTGTTGCCCAG--GCTCATTATTCCATTTTACAGATG  11583
+                                      |||||.|  |||||                  |
+74414318-7442   9407 -----------------TGCCCGGCTGCTCA------------------G   9421
+
+218382273-218  11584 GGAAAACTGATGCACTCAGTTAAGTTACTAGTGGCAGGGCTTGGATTCAA  11633
+                     ||            |||  ||              ||||          |
+74414318-7442   9422 GG------------CTC--TT--------------AGGG----------A   9433
+
+218382273-218  11634 ACCGAAGCAACCTGGTGCCAGAGCCCCCAAACACTTTCTCCTGCTTTGGA  11683
+                     ||                    |.|||||||                  .
+74414318-7442   9434 AC--------------------GTCCCCAAA------------------G   9445
+
+218382273-218  11684 GCCCACAACCTGATAAGGCAGGAGACGGGGAAGTAGGCTCAGTGTGGTTA  11733
+                     ||.|.||.||.|       ||||||                         
+74414318-7442   9446 GCTCCCAGCCAG-------AGGAGA-------------------------   9463
+
+218382273-218  11734 GGGCAGTTGAGCTCACACCCACACAGAGGGTGTCAAGCCACGCCCATCTT  11783
+                      ||||   ||.|||   |||||                            
+74414318-7442   9464 -GGCA---GAACTC---CCCAC----------------------------   9478
+
+218382273-218  11784 GCCCCCACCCT----TGCCATATTCTGAGGCAGAATTCCTCAGCCT-AGG  11828
+                     .|||.||||||    |||||       ||||||..|..|||||||| ||.
+74414318-7442   9479 TCCCACACCCTGCTGTGCCA-------AGGCAGGGTCTCTCAGCCTCAGT   9521
+
+218382273-218  11829 CT----CCTGCTGCTCTCCCCAGCTCCCGTTCGCCGTGCTGCCCATCCTC  11874
+                     ||    |||||      ||.|||||.||.|||||.||.||||||||..|.
+74414318-7442   9522 CTCCACCCTGC------CCACAGCTGCCCTTCGCTGTACTGCCCATTTTG   9565
+
+218382273-218  11875 ACGTTCACCAGCATGCCCACCCTCATGCAGGAGTTTGCCAATGGCCTGTG  11924
+                     ||.||||||||||||||..|..|||||||||||||||||||.||||.|||
+74414318-7442   9566 ACTTTCACCAGCATGCCAGCTGTCATGCAGGAGTTTGCCAACGGCCGGTG   9615
+
+218382273-218  11925 AGTACCCCCTTTCCCAAGTGCTGGATTGCATCA----CCACATTTCATC-  11969
+                     |||||.|||||.|||.|          .||.||    |||..|||| || 
+74414318-7442   9616 AGTACGCCCTTCCCCGA----------CCACCACGGTCCAGCTTTC-TCT   9654
+
+218382273-218  11970 -CTCACAGCCACCCAGAGGTACGAGCTACAA---TTCTCCCCATTATCCC  12015
+                      |||.|||||||.|||||      ||.||||   ||.||.|||...||||
+74414318-7442   9655 ACTCTCAGCCACTCAGAG------GCAACAACTGTTATCTCCACCTTCCC   9698
+
+218382273-218  12016 AATGAAGCCACAGAGGCTGAGAGAGGTTAAGGGACTTACCCAGGTTCACA  12065
+                      |||||.|||   ||||....|||...|||.|.||||.||.||..|||||
+74414318-7442   9699 -ATGAAACCA---AGGCCCCAAGACCATAAAGAACTTGCCTAGTGTCACA   9744
+
+218382273-218  12066 CAGCTAGCAAGT-TGAGGAGCCAAGACTGGAATCCAGGGAAGA-------  12107
+                     ||||||..|||| ||             |||| ||||||           
+74414318-7442   9745 CAGCTACTAAGTATG-------------GGAA-CCAGGG----TTTGGTG   9776
+
+218382273-218  12108 GGGCTGTTTCTAG-AGCCTGAGC---GCCTCACTCTCGCCTCAGACTCAG  12153
+                     ||||.|||||||| |.||.|.||   .||||||            |.||.
+74414318-7442   9777 GGGCAGTTTCTAGAACCCCGGGCTTAACCTCAC------------CACAC   9814
+
+218382273-218  12154 CTCTTGCCAAATCCCGCCAGTG-TGTAGCCTGGAGGGC--CCAGGAGGC-  12199
+                     |.||||||||     |.||||| ||.||||||.||.||  |||.|.||| 
+74414318-7442   9815 CCCTTGCCAA-----GTCAGTGATGGAGCCTGAAGTGCCTCCAAGTGGCT   9859
+
+218382273-218  12200 AGGAGGTGGGGAGGGGGTCTGTCTGCTC---------CAGGTCCCACAGA  12240
+                     |          |..||||||.|||||||         ||||     |||.
+74414318-7442   9860 A----------ACTGGGTCTATCTGCTCTAGAGCATTCAGG-----CAGT   9894
+
+218382273-218  12241 CCAGAGAAGCGGCCTCAGTGTATCCCCACCCCCAGTGTGGGCGCTGGGAG  12290
+                     ||.|||.|..||    .||||        ||..|| ||||          
+74414318-7442   9895 CCTGAGGATAGG----GGTGT--------CCTGAG-GTGG----------   9921
+
+218382273-218  12291 ATGAAGAGGAGTTGATGCAGGTGGGCCAGCAGCAACCAGCCAGTCCTGAG  12340
+                            ||||...||.||||.||.||.||.|....|||||||.||||||
+74414318-7442   9922 -------GGAGACCATCCAGGAGGCCCGGCTGTTTTCAGCCAGCCCTGAG   9964
+
+218382273-218  12341 CCTCTCTCGTGTCCCCCAGGCTGAACAAGGTCGTCACCTCTTCCATCATG  12390
+                     |.|| |...|.|||||||||.|||.|||.|.|.||||.||.|.|||||||
+74414318-7442   9965 CATC-CATTTTTCCCCCAGGATGAGCAAAGCCATCACTTCGTGCATCATG  10013
+
+218382273-218  12391 GTGCTAGTCTGCGCCATCAACCTCTACTTCGTGGTCAGCTATCTGCCCAG  12440
+                     |.|||||||||||||||||||||.|||||.|||.|||||||.||||||||
+74414318-7442  10014 GCGCTAGTCTGCGCCATCAACCTGTACTTTGTGATCAGCTACCTGCCCAG  10063
+
+218382273-218  12441 CCTGCCCCACCCTGCCTACTTCGGCCTTGCAGCCTTGCTGGCCGCAGCCT  12490
+                     |||.||.||||||||||||||.|||||||..||..||.|.||...||..|
+74414318-7442  10064 CCTCCCGCACCCTGCCTACTTTGGCCTTGTGGCTCTGTTCGCAATAGGTT  10113
+
+218382273-218  12491 ACCTGGGCCTCAGCACCTACCTGGTACAGTAGGGCCAGGGGATGCCTTGG  12540
+                     ||.|||||||.|...|.||.|||||||  |.|||.||      |||..||
+74414318-7442  10114 ACTTGGGCCTGACTGCTTATCTGGTAC--TGGGGTCA------GCCACGG  10155
+
+218382273-218  12541 GAATGGATGAGGGAAGGACAAGAGGCAACCAATGGGGAGGGTTTGGGGGG  12590
+                     |...||  |||||.||||.|                         |||.|
+74414318-7442  10156 GGCAGG--GAGGGCAGGAGA-------------------------GGGAG  10178
+
+218382273-218  12591 ACACAATGGGGCTTCCCCAGAGG---TCTTGGCATCTCCCCAATTCATGG  12637
+                     |||| |.|||||||   |.||||   || ||||.|||||.|||.||||||
+74414318-7442  10179 ACAC-AGGGGGCTT---CTGAGGCGCTC-TGGCCTCTCCTCAACTCATGG  10223
+
+218382273-218  12638 TTGCCCCTCCCCCAGGTCTGGACCTGTTGCCTTGCCCACGGAGCCACCTT  12687
+                     |    |||.|||||||.|||||||||||||.|.|||||||||||||||||
+74414318-7442  10224 T----CCTTCCCCAGGCCTGGACCTGTTGCATCGCCCACGGAGCCACCTT  10269
+
+218382273-218  12688 TCTGGCCCACAGCTCCCACCACCACTTCCTGTATGGGCTCCTTGAAGAGG  12737
+                     .|||.||||||||||||||.|.||||||.|.||||||||||.|.|.||||
+74414318-7442  10270 CCTGACCCACAGCTCCCACAAGCACTTCTTATATGGGCTCCCTAACGAGG  10319
+
+218382273-218  12738 ACCAGAAAGGGGAGACCTCTGGCTAGGCCCACACCAGGG--CCTGGCTGG  12785
+                     |.|||..|||.|.|                    |||||  ||.||    
+74414318-7442  10320 AGCAGGGAGGCGTG--------------------CAGGGTTCCGGG----  10345
+
+218382273-218  12786 GAGTGGCATGTATGACGTGACTGGCCTGCTGGATGTGGAGGGGGCGCGTG  12835
+                                 ||||                            |||| |
+74414318-7442  10346 ------------TGAC----------------------------CGCG-G  10354
+
+218382273-218  12836 CAGGCAGC-AGGATAGAGTGGGACAGTTCCTGAGAC-CAGC----CAACC  12879
+                     ||..|||| ||.|.|||| |..||||..|   |||| ||||    |||  
+74414318-7442  10355 CATCCAGCAAGCAAAGAG-GCAACAGGGC---AGACACAGCAGAGCAA--  10398
+
+218382273-218  12880 TGGGGGCTTTAGGGA-----CCTGCTG--TTTCCTAGCGCAGCCATGTGA  12922
+                            ||   |||     |||.|||  ||||            || ||
+74414318-7442  10399 -------TT---GGAGGTCCCCTACTGGCTTTC------------TG-GA  10425
+
+218382273-218  12923 TTACCCTCTGGGTCT-CAGT--------GTCCT---CATCTGTAAAATGG  12960
+                     |||||     |||.| ||||        ||.||   |.||.|.|.|||  
+74414318-7442  10426 TTACC-----GGTTTCCAGTTTGGACAAGTGCTTTACCTCGGAATAAT--  10468
+
+218382273-218  12961 AGACAC---------CACCAC--CCTTGCCATGGAGGTTAAG-CACTT--  12996
+                      |||||         ||||||  ||             |||| .||||  
+74414318-7442  10469 -GACACCATTCTTATCACCACAACC-------------TAAGAGACTTAA  10504
+
+218382273-218  12997 -TAACACAGTGTCTGG--------------CACTTGGGACAAAAACAAAC  13031
+                      .|||||||||.||||              ||..||.||..||.||.|.|
+74414318-7442  10505 AAAACACAGTGCCTGGGGCGAGAGATGGCTCAGGTGTGAAGAACACTAGC  10554
+
+218382273-218  13032 AAACGAAAAACATTTCAAAA----GGTATTTATT---GAGC----ACCTG  13070
+                     .|.|    |.|.|||||.||    ||.|||.|.|   .|||    ||.||
+74414318-7442  10555 CACC----ACCCTTTCAGAAGATGGGGATTCAATTCCCAGCATCAACGTG  10600
+
+218382273-218  13071 CAGGC------------GTGAC----------------------------  13080
+                     ..|||            |||||                            
+74414318-7442  10601 GTGGCTTTCAACTGAAGGTGACTCCAGTTCCCAGAACACCTCAAACAGAA  10650
+
+218382273-218  13081 CTG--ACAGC-CCAAGGGTGG--------------GTGG--GGTGAGGGC  13111
+                     |||  |||.| |||    |.|              ||||  |.|||.|| 
+74414318-7442  10651 CTGCCACAACTCCA----TTGTCTCACTCCAGCTCGTGGAAGATGAAGG-  10695
+
+218382273-218  13112 TTGAGGA-------------CTTGGGCGG---------GACACAGGCTCC  13139
+                       |||||             ||.||.|||         ||.|| ||||| 
+74414318-7442  10696 --GAGGAGTCCTAAAGAGTTCTAGGTCGGGTCTCTGGAGAGAC-GGCTC-  10741
+
+218382273-218  13140 AAACTGGAGCTTGAAATAG--------TG-TCT----GA-----TGAATG  13171
+                            ||||...||.||        || |||    ||     |||  |
+74414318-7442  10742 -------AGCTGTTAAGAGCACCGGACTGCTCTTCCAGAGGTCCTGA--G  10782
+
+218382273-218  13172 TTAAATT------------AT-----CT---ATCTATCTATTTATTTATT  13201
+                     ||.||||            ||     ||   |.|.|||.||         
+74414318-7442  10783 TTCAATTCCCAGCAACCACATGGTGGCTCACAACCATCCAT---------  10823
+
+218382273-218  13202 TATTTGAGACAGGGAAAGGGTCTCCCTCTGTTGCCAAGGCTGGAGTG---  13248
+                                    ||.||..|||||||         .||||.|||   
+74414318-7442  10824 ---------------AATGGGATCCCTCT---------TCTGGTGTGTCT  10849
+
+218382273-218  13249 -----------CAGTGGCGC--------------------AATCTTAA--  13265
+                                |||||.| |                    ||||||||  
+74414318-7442  10850 GAAGACAACAACAGTGTC-CTCACATATATAAAATAAATAAATCTTAAAA  10898
+
+218382273-218  13266 -------CTCATTGCAACCTCCACCTTCTGGGTTCAAGCGATTCTCTTTA  13308
+                            ||.|..|         ..||||.||||      ||.|||.|.|
+74414318-7442  10899 AAAAAATCTTAAAG---------AGTTCTAGGTT------ATCCTCCTAA  10933
+
+218382273-218  13309 --------TTCAGCCCCGGGAG---TGGCGCGCGCCACCACGCCCAGCTA  13347
+                             |.||..|..||.||   |||.||.||||...|..||||||  
+74414318-7442  10934 AAAGTGAGTCCAAGCTGGGCAGTGATGGTGCACGCCTTTAATCCCAGC--  10981
+
+218382273-218  13348 ATTTGTGTATTTTCA-GCAGAGACGGGGTTTGCCATGCT--------GGC  13388
+                     |.|||.|       | ||||||.|.||   ||...|.||        |||
+74414318-7442  10982 ACTTGGG-------AGGCAGAGGCAGG---TGGATTTCTGAGTTCAAGGC  11021
+
+218382273-218  13389 CAGGCTGGTCTCGAACTGCTGGATTCAAGTGATCCGCCCATCTCCGTCTC  13438
+                     |||.|||||||..|            ||||||             || ||
+74414318-7442  11022 CAGCCTGGTCTACA------------AAGTGA-------------GT-TC  11045
+
+218382273-218  13439 CCAAAGTGCTGGGAATTACAGGCGTGAGCCAC-----CAAACCCGGCCTG  13483
+                     |..||..||         ||||     ||.||     .||||||.|.|| 
+74414318-7442  11046 CAGAACAGC---------CAGG-----GCTACACAGAGAAACCCTGTCT-  11080
+
+218382273-218  13484 ATTAA-------AGTTA---AATAAATACT-----------AGTTC----  13508
+                      .|||       |||||   |||.||||.|           |||||    
+74414318-7442  11081 -CTAAAAAACCCAGTTAATCAATCAATAATAAAATAAACTGAGTTCGAGT  11129
+
+218382273-218  13509 ----CCT------------------TCTC---------GTCCAAAGGAGC  13527
+                         |||                  ||||         ||..||||.||.
+74414318-7442  11130 CCAACCTGGGCTACCTGAGAGCCTGTCTCAAGAAGGAAGTAAAAAGAAGG  11179
+
+218382273-218  13528 AGGGAA--TGG----------------------GAAC-----CGGGAAGG  13548
+                     |.||||  |||                      |.||     ||.|.|||
+74414318-7442  11180 AAGGAAAGTGGAGGAGGAGGAGGAGGAGGAGGAGGACGAGGACGAGGAGG  11229
+
+218382273-218  13549 CACGA---------------------------------------------  13553
+                      ||||                                             
+74414318-7442  11230 -ACGAGGAGGAGGAGGAGGAGGAGGAGGAGGAGGAGGAGGAGGACCTGAC  11278
+
+218382273-218  13554 ------------------AGT--------------CTCTAAAGCATCCAG  13571
+                                       |||              ||..|||..||  ||
+74414318-7442  11279 AAACTTGGGGGGAGGAAGAGTCGGACTGGAAGAAACTTAAAAAAAT--AG  11326
+
+218382273-218  13572 AA---GACCCCTACACC--AGGG---------TCTGGTC-----CGCT--  13600
+                     ||   |.||..|..|||  ||||         ||||.||     ||||  
+74414318-7442  11327 AAATCGTCCGATGAACCAAAGGGTAGCTCCCCTCTGTTCCAAAGCGCTAG  11376
+
+218382273-218  13601 ----CCTATTCGCCGCAGCC-------------TTTCTGTTCCGCCTGCA  13633
+                         .|||..||||..|.||             |..||||    .|.|.|
+74414318-7442  11377 AAAATCTAAACGCCAAAACCCGAACCCTCCAAATGACTGT----ACGGAA  11422
+
+218382273-218  13634 ACCCATTTTCCAGACAGTAAAACGGCGGCGCACT---------TCTTTCT  13674
+                     |||.||||||||||.||||||||         ||         ||.||||
+74414318-7442  11423 ACCTATTTTCCAGAGAGTAAAAC---------CTAGAAAGTGCTCCTTCT  11463
+
+218382273-218  13675 CCGTCAGGCACCAGGTCATAAGGAACCCAAGAGTCTGTGCCTCTGAGGCC  13724
+                     |.||||||..||||..|||||.||||||||.|||||||||||| .|||||
+74414318-7442  11464 CTGTCAGGAGCCAGACCATAAAGAACCCAAAAGTCTGTGCCTC-AAGGCC  11512
+
+218382273-218  13725 CAAATTATTTGCTGTTTCCTCAGGGGAGCCGGCGGCCGCGACTCCCACGC  13774
+                     |||.|.||||||..|.|||.|||||.|...|||.|.|..|||||||||||
+74414318-7442  11513 CAATTCATTTGCCATCTCCCCAGGGAACTGGGCTGACCTGACTCCCACGC  11562
+
+218382273-218  13775 CGCGCCGTTACCGCTCCCT--------CTCTGCTGACTGCTCCCCCTAGG  13816
+                     .||||..|||..|.|||||        ||||     |.||||||||||||
+74414318-7442  11563 TGCGCTATTAGGGTTCCCTGTACTTCACTCT-----CAGCTCCCCCTAGG  11607
+
+218382273-218  13817 GGCAGAGACGGTCCC-GACGCCCGCCATCCCGCCCCGGCC---TCACCCC  13862
+                     |||||.|||..|||| |.|||||.|..|||.|||..||||   ||..||.
+74414318-7442  11608 GGCAGGGACTCTCCCGGGCGCCCACACTCCGGCCTAGGCCCTGTCCTCCT  11657
+
+218382273-218  13863 TCCCCGCCAGGCGGAACGACGCGGG---GAGGCGGGCGCTCGGGGCTCGC  13909
+                     ||...|.||.||||   |||.|.||   ||||.|||.|||   ..|||  
+74414318-7442  11658 TCAAGGGCAAGCGG---GACACAGGTGAGAGGAGGGTGCT---TTCTC--  11699
+
+218382273-218  13910 GCCAGGGGCCCCAGAATCCTTCGGGGAGAGTGGGT-GGGAGGAAGCTGTG  13958
+                      ||| |||||.|||||.||..|...|.|...|||| |||| |.|||.|||
+74414318-7442  11700 -CCA-GGGCCGCAGAAGCCACCTCCGCGCCCGGGTAGGGA-GTAGCGGTG  11746
+
+218382273-218  13959 TGGGCGGGGAGCCCCCTCTGCCTTAGGGAGCGGCTGGGCACCCATTCGCC  14008
+                     ||||||||||.|||||||..||..||..||||.|..||.|||| ||||||
+74414318-7442  11747 TGGGCGGGGAACCCCCTCCTCCGCAGTCAGCGTCCCGGAACCC-TTCGCC  11795
+
+218382273-218  14009 CCATTCAGGGGCT-GCACTTTATAGACGTTCCCTAGGCTGTTTCTAGGCT  14057
+                     |..|..| |..|| ||||.||..|||||.|||||||||.|||||||||||
+74414318-7442  11796 CTGTGTA-GACCTAGCACATTGCAGACGCTCCCTAGGCAGTTTCTAGGCT  11844
+
+218382273-218  14058 CCCCCAAGTCCCTCCTCCAGCCTCGTCGGGTCCCTCAGACCCCAGCCCAG  14107
+                     ||||.|||||||||||||.|.|||.||.|||.|||...||...||||.| 
+74414318-7442  11845 CCCCTAAGTCCCTCCTCCTGACTCCTCCGGTTCCTTGCACTGTAGCCTA-  11893
+
+218382273-218  14108 GACCTGCGGAGGGCCGCAGCGAGG--AGAGGCCAACAG---GCCTTTCCC  14152
+                     ||.|.||..||.|||||| ||.||  ||.||..|.|.|   ||||||.||
+74414318-7442  11894 GAACAGCCCAGAGCCGCA-CGGGGGAAGGGGTGACCGGGGAGCCTTTTCC  11942
+
+218382273-218  14153 TAGAGTTGAACCTGGGCCGGGTGTTGCAC---CTGGAAGAACCCCCGATT  14199
+                     .||.||.||.|||||   |||.|.|.|.|   |||.|||.|.|.||.|||
+74414318-7442  11943 CAGGGTAGAGCCTGG---GGGAGGTTCTCTGTCTGAAAGCAGCTCCTATT  11989
+
+218382273-218  14200 TCCTGGGGACCCAGCAGGGCAGGC---GGCCTGGCTCCGCGCTCAG-GTC  14245
+                     .|| .||.|||||||.|||.||||   ||.|||||    ||||||| || 
+74414318-7442  11990 ACC-CGGAACCCAGCTGGGAAGGCTGTGGACTGGC----CGCTCAGAGT-  12033
+
+218382273-218  14246 CGGACGCTTGTTTATGAGAAGAATTTCCTCTTTCTTAAAAGGGCAACGAT  14295
+                     .||.|||||||||||||.||||||||||||||||||||||||||||.||.
+74414318-7442  12034 GGGGCGCTTGTTTATGAAAAGAATTTCCTCTTTCTTAAAAGGGCAATGAA  12083
+
+218382273-218  14296 GCGAGTGGGTCCCTCAAGGAGAGAAGAGATGGGACCGGTCT-GGTGCGAC  14344
+                     ..||||||| |||..||||||.|  |..|.||||..||||| ||||   |
+74414318-7442  12084 AAGAGTGGG-CCCAAAAGGAGTG--GCTAAGGGAGAGGTCTGGGTG---C  12127
+
+218382273-218  14345 CTGGGCAAGCGCTGCAGAGGGTACCTGGGCAAGAGGGCCGCCCGCCT---  14391
+                     |||.|||||      |.||.||||||           ||.|.|||||   
+74414318-7442  12128 CTGAGCAAG------AAAGAGTACCT-----------CCCCTCGCCTTGG  12160
+
+218382273-218  14392 --CCT-CTGGGTTTGGCACTGGAGAAGATGGG-TCCATGCCAGCTGAAGG  14437
+                       ||| |||         |||||||||||||| |||              
+74414318-7442  12161 TGCCTGCTG---------CTGGAGAAGATGGGATCC--------------  12187
+
+218382273-218  14438 AGGAGAT-------GGATGGGGGACGTTTAGCGAAGAAAGGCATCTCCCA  14480
+                       |||||       ||.|.||||.|   |.||.|||||| |||||| |||
+74414318-7442  12188 --GAGATAATAAAGGGGTAGGGGGC---TGGCAAAGAAA-GCATCT-CCA  12230
+
+218382273-218  14481 GA-TCCTTTAGCCTCCTGGAAGTGCCCCCGTTGTACCCCCTAC-------  14522
+                     || |||        |||..||.|.|.|||| ||| |||||.||       
+74414318-7442  12231 GATTCC--------CCTCTAATTTCTCCCG-TGT-CCCCCAACTTGGTGG  12270
+
+218382273-218  14523 ACACCC--------CTCTTGGC----ATTGAGTGC-------------CA  14547
+                     |||..|        |.||||||    ||||.||||             ||
+74414318-7442  12271 ACATTCAAGCGATTCACTTGGCACTAATTGGGTGCTTTATTTATTTTTCA  12320
+
+218382273-218  14548 ---------------GTCCTCTGCCAGGCTCTGTGTTACAAGTTGGGGAG  14582
+                                    .|.||.||..|.||.|||.||||.||||  ||.||
+74414318-7442  12321 TTTATTTTTTAATTTTTTCTGTGATAAGCCCTGGGTTAGAAGT--GGAAG  12368
+
+218382273-218  14583 GGCGG-CAAAGTCCCGAATTAAA---GATGTCAG----TTCTCAAGGA--  14622
+                     .|.|| .||||||||||||||||   ||||||||    .|.||.||||  
+74414318-7442  12369 AGAGGTAAAAGTCCCGAATTAAAGAGGATGTCAGCTGTCTGTCCAGGAGC  12418
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12419 TCTCAGGGCAAGGGGGTGGGAGGGCAAAATGAACTGGCAGGATGACACTG  12468
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12469 CGAGTTTAAGAAGACCACTGGGCCGAGCGTGGTGGCGCACGCCTTTATTC  12518
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12519 CCAGCACCCAGGAGGCAGAGACAGGCGGATTTCTGAGTTCGAGGCCAGCC  12568
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12569 TGGACTACAGAGTGAGTTCCAGGACAGCCAGGGCTGTACAGAGAAACCCT  12618
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12619 GTCTCGAGCCCCCCGGCCCCTAAAAAAAGAGGAAGACCACTGAGCACAGG  12668
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12669 ATTGTGAACGTTAAATAAGAAAGGGCTGTCAGTGAGTGTGTCCACAATTC  12718
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12719 TTGGTTCTCAGATGCTGTGGAATGGGGCTGGGGGACCCAGAAGGAGGGAG  12768
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12769 AAGCTGATCGTATGACTAGTTGTGTTTAGGACTTAGAATTGAGCGCTGAG  12818
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12819 AAGGTAAGTTTGGCCCAGAACACTTACTGAACACTCACCTCCATAGGACT  12868
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12869 GAACTTCCCAGCTCCTCTGGCACAAGCTAACATGGCAGCTAACAACAGCC  12918
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12919 TGGAACCCCAGCTCAGGGGACAGGACACTCTTCAAGCTTCCAAAGGCACC  12968
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  12969 CCAACACTCACTGCATACACTAACACATATACGTAAAAATAAATCTTAGC  13018
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13019 GACATTGTAGCACACTCCTTAATATCAGCGCTCTGGAGACAGAAGCAGGT  13068
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13069 GGATCTCTGTGCACTGGAGGCAAGCCAGCTCCGGCTAAGTAGTAGTTTCA  13118
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13119 GTCCAGCAAAGGCTACATAATGAGGCTTGCTCAAAATTAATAATAAATAC  13168
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13169 AACAACAACAGCAATAATAAATCTTAGGGTCAGCAAGATGGCTCAGTATG  13218
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13219 TCAGGATACCAGTCACCATTCCCAAAGACCAGAGTTCTGTCCTTGGGACA  13268
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13269 CACATGGGTGGATTCTCTAGCTCCACACATGTTTTGTGACACATGCTCAC  13318
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13319 ACACACAAAAATAATGATTTAACCCACACCACACCACAGGGTTTCTCTGT  13368
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13369 GTAGCCCTGGCTGCCCTGGAACTCACTTTGTAGAAGAGACTGGCCTTGAA  13418
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13419 CTCAGACATCTGCCAGCCTCTGCCTCTGCCTCTGGAGTGTTGGAATTCAG  13468
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13469 CCAACCTGTCTGACTTACCAAGGCCCAAGATCAGGGATAAGGTTGGCCAT  13518
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13519 TTCCAGCCAGGGGCCGGCACTTAGTGCTCCTCCATCCCCGTGGCGGCCCT  13568
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13569 AAAGACCTCAGCCCCAAAACTCAAATTGAATTTAAGGAAAGAGGCCTACC  13618
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13619 TTAGGGTTTCACCAGTCAGTCCTCGCATACCTGCTTCCGGGGAGCCAGCT  13668
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13669 GAGGGCGTCCTACCAGACCTCCCGTCCAGTCCATCCACAAGCAGGAAACT  13718
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13719 GAGGTGGTGAAGGGAAGGACCCTTGTCTCAGGTGCCCCAGAGTATCCTGC  13768
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13769 TTAGTCCCGGATAGCAGTCCACACCATTGTTTTTCTTGGGGATGAGTATT  13818
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13819 AAAATAATAATCATCTTAGGGGCTGGAGAGATGGCTCAGCTGTTATGAGC  13868
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13869 ACTGAATGCTCTCCCAGAGGTCCTGAGTTCAATTCCCAGCAACCACATGG  13918
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13919 TGGCTCACAACCGTCTGTAATGGGATTCCTTCTTCTGGTGTGTCTGGTAT  13968
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  13969 ACTCATATACATAAAATAATAAATAATAATCATAATAGATTGTGTGGGTA  14018
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14019 AAGCCCACCACCAACTGCTGGGTGAGGGGAGACGGCAGCAGAGATGGAGC  14068
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14069 CATGCTCCCCTGCAAGGAAACAAACAAACAAACAAAAACAAACACTGCCC  14118
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14119 CCACCCTCCGGACTGGCAGTTTAATCCTCACAATATAGCACTAGAACAGG  14168
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14169 GCGAGGGCTACGGAGCTTCTGGCAGAAGGTGGGAACTCTAGGCTCTCTGG  14218
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14219 CTCCCGAAGAGACCCCCCAGCTAAGGCCTGAAGGGGGTGATAGGTCTTTG  14268
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14269 TTTGGGGTGGCTTCTGAGGACTGGTGTGAGCTTACAGGGCAGGTTCATGA  14318
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14319 GTGTCAAGGTGGGGGTGGGATGTTAAGGAACGATGGAAATCTGAGGCCGC  14368
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14369 CAGCTGCATGGCCCAGTCGCTGGACCCGGGCTCATTCAACTTCGGGTCAT  14418
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14419 ACATTTCCTTTTGGGAAGTGTGCAGGCCCAGGTAAGAAAGCGAAGGCACC  14468
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14469 CCTGGTGGGCTTGGCCAAGAAGAGGCGCTCGGAGAGAGTTGGAAGGGCCT  14518
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14519 GGGTTGAAGGCTTCACTTTCCCAAGCTGTCCCCTCTTCTGTCATAAAGGC  14568
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14569 AAGAAGGGGATCGTTCCAAGGATCCCGAGTCAATTAAGAGCGCGCGCCCC  14618
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14619 TGGGCACCAACACATGGGAGGCAAAGACCTTGGGGTGTAAGGATGGCAGC  14668
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14669 GTTATGGCTCCCTAAGGGCAGAAGGGTCAGGGATCAGCGCCCCACACTCG  14718
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14719 CTGCTCGTGCGCACGCAGAGCAGGGGCCAAGCTCCCAGCCCGCTATCTGC  14768
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14769 TGGGAAGCCACAGGACGCCCACCCCACCACACCCGGCCACAGGGCCCAGG  14818
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14819 GGAGGAAGTGAGGCGTGCGTGTGAAGGCTGGGCATTCGTGTTTTTAAAAT  14868
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14869 TAAGGCGAATGAAAGGAACTTTGTAAGACAGGAAAAATAAAAAATAAAAA  14918
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14919 TAAACGAACCGCAGCCCTAGAGCGGCGCAACTGAGGGGCTTCCTGCGAGA  14968
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  14969 AGGCTCTGTATGCAAACGCAGATTCAGGCTCTGGCTGGGGTGTGTCACTA  15018
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15019 CAGATCCGGTGACACGTGTGTTTAAAATCTGAACGGTTGCGGTCTCAGGC  15068
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15069 GCCCAAGGGCGGGCGCTGGGCCCTCCCTCCGCGGGCGTCCCCTGAGCACT  15118
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15119 CGGGAGCACAGCCAGCCCTAGACGGGGCCCCTCTAATAATCACAGATAGG  15168
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15169 GGCGGTGGGGTGGGGGTGGAGGGCCTCTAAACAAGGTGGTATTTCTTCTA  15218
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15219 GTTCGATGGGATTTGGCTCTGCCAAGGACGAAGGGGCACGTTTCAAGCCG  15268
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15269 AGGGAACAGCACGTACAAGATACAAGGCGCCCTGAGCAGCAGAGGCTCGG  15318
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15319 CTTCTGCCAGGGTTTGGCAGGGGAAGAGGGCGAGATTTGCTACAGGACAG  15368
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15369 TCGGTAAAGGTAGGCGCCGAAGTGGACTTTTCAATCCTGGGATGTTCTCG  15418
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15419 AGACTGCAGGGAATGCTGATAGTTACAGTTGGATCACGAACATAATTTAG  15468
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15469 GACTGGAGAGGTTCATCAGCCGTTAAGAGAAGTCCCTGCTCATGCAGGCC  15518
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15519 ACCTGAATGAGTTCAGGTGCCAGCACTCAAGGCTAACCACTGCCTCCAAC  15568
+
+218382273-218  14622 --------------------------------------------------  14622
+                                                                       
+74414318-7442  15569 TTCTGCTCCAGGCGATGGCGCCCTCTTCTGGCCATTGAAGGCTCCGGCAT  15618
+
+218382273-218  14622 ---------------------------------------  14622
+                                                            
+74414318-7442  15619 TCATACACATACACAAAAATAAAATCAATCTATCTACAA  15657
+
+
+#---------------------------------------
+#---------------------------------------

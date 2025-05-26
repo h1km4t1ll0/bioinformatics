@@ -1,0 +1,7 @@
+INFO /home/ubuntu/.local/bin/cwltool 3.1.20250110105449
+INFO Resolved 'helloworld.cwl' to 'file:///home/danil/bioinfo/4/helloworld.cwl'
+INFO [job helloworld.cwl] /tmp/yp8748pa$ echo \
+    'Hello World'
+Hello World
+INFO [job helloworld.cwl] completed success
+{}INFO Final process status is success

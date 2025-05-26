@@ -1,0 +1,87 @@
+INFO /home/ubuntu/.local/bin/cwltool 3.1.20250110105449
+INFO Resolved 'pipeline/main.cwl' to 'file:///home/ubuntu/NSU/bioinformatics/danek/pipeline/main.cwl'
+INFO [workflow ] start
+INFO [workflow ] starting step fastqc
+INFO [step fastqc] start
+INFO [job fastqc] /tmp/7bo8qttx$ fastqc \
+    --outdir=./ \
+    /tmp/a1qilx0z/stg8a831559-61be-496e-81f9-cf5b1ba4672d/SRR31649172.fastq
+null
+Started analysis of SRR31649172.fastq
+Approx 5% complete for SRR31649172.fastq
+Approx 10% complete for SRR31649172.fastq
+Approx 15% complete for SRR31649172.fastq
+Approx 20% complete for SRR31649172.fastq
+Approx 25% complete for SRR31649172.fastq
+Approx 30% complete for SRR31649172.fastq
+Approx 35% complete for SRR31649172.fastq
+Approx 40% complete for SRR31649172.fastq
+Approx 45% complete for SRR31649172.fastq
+Approx 50% complete for SRR31649172.fastq
+Approx 55% complete for SRR31649172.fastq
+Approx 60% complete for SRR31649172.fastq
+Approx 65% complete for SRR31649172.fastq
+Approx 70% complete for SRR31649172.fastq
+Approx 75% complete for SRR31649172.fastq
+Approx 80% complete for SRR31649172.fastq
+Approx 85% complete for SRR31649172.fastq
+Approx 90% complete for SRR31649172.fastq
+Approx 95% complete for SRR31649172.fastq
+Analysis complete for SRR31649172.fastq
+INFO [job fastqc] Max memory used: 479MiB
+INFO [job fastqc] completed success
+INFO [step fastqc] completed success
+INFO [workflow ] starting step index
+INFO [step index] start
+INFO [job index] /tmp/ya_f97u3$ minimap2 \
+    -d \
+    ref.mmi \
+    /tmp/6_j1j2zl/stg9e37c3fb-981a-46f4-a172-0f52ffd42bee/ecoli_ref.fa
+[M::mm_idx_gen::0.156*1.01] collected minimizers
+[M::mm_idx_gen::0.200*1.41] sorted minimizers
+[M::main::0.260*1.32] loaded/built the index for 1 target sequence(s)
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.273*1.30] distinct minimizers: 838542 (98.18% are singletons); average occurrences: 1.034; average spacing: 5.352; total length: 4641652
+[M::main] Version: 2.26-r1175
+[M::main] CMD: minimap2 -d ref.mmi /tmp/6_j1j2zl/stg9e37c3fb-981a-46f4-a172-0f52ffd42bee/ecoli_ref.fa
+[M::main] Real time: 0.284 sec; CPU: 0.366 sec; Peak RSS: 0.072 GB
+INFO [job index] completed success
+INFO [step index] completed success
+INFO [workflow ] starting step align
+INFO [step align] start
+INFO [job align] /tmp/3h8l1bo1$ minimap2 \
+    -a \
+    -t \
+    16 \
+    /tmp/r_zwqk_9/stgee9944b3-3284-4209-b011-f5e57f96b7c3/ref.mmi \
+    /tmp/r_zwqk_9/stg214d28ab-51f1-4c90-87d3-17d32e60e0f6/SRR31649172.fastq > /tmp/3h8l1bo1/aligned_reads.sam
+[M::main::0.066*1.02] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.083*1.01] mid_occ = 12
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.098*1.01] distinct minimizers: 838542 (98.18% are singletons); average occurrences: 1.034; average spacing: 5.352; total length: 4641652
+[M::worker_pipeline::57.670*14.24] mapped 1084964 sequences
+[M::main] Version: 2.26-r1175
+[M::main] CMD: minimap2 -a -t 16 /tmp/r_zwqk_9/stgee9944b3-3284-4209-b011-f5e57f96b7c3/ref.mmi /tmp/r_zwqk_9/stg214d28ab-51f1-4c90-87d3-17d32e60e0f6/SRR31649172.fastq
+[M::main] Real time: 57.677 sec; CPU: 821.101 sec; Peak RSS: 1.042 GB
+INFO [job align] Max memory used: 1063MiB
+INFO [job align] completed success
+INFO [step align] completed success
+INFO [workflow ] starting step flagstat
+INFO [step flagstat] start
+INFO [job flagstat] /tmp/4g4u3__y$ samtools \
+    flagstat \
+    /tmp/zi_rsr_5/stgb2e88677-c742-49e8-9853-9d94bc41a3ee/aligned_reads.sam > /tmp/4g4u3__y/flagstat.txt
+INFO [job flagstat] Max memory used: 3MiB
+INFO [job flagstat] completed success
+INFO [step flagstat] completed success
+INFO [workflow ] starting step analyze
+INFO [step analyze] start
+INFO [job analyze] /tmp/1s_gs__t$ bash \
+    analyze-mapping.sh \
+    /tmp/zrfqsou1/stg339ed408-a0db-43c9-be8e-6a43cf6e9243/flagstat.txt > /tmp/1s_gs__t/stdout
+INFO [job analyze] completed success
+INFO [step analyze] completed success
+INFO [workflow ] completed success
+{
+    "mapping_result": "Mapped 94.89%\nOK\n"
+}INFO Final process status is success

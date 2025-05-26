@@ -1,0 +1,3 @@
+{
+    "mapping_result": "Mapped 94.89%\nOK\n"
+}
